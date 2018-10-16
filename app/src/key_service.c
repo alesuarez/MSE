@@ -10,8 +10,8 @@ bool_t notPress(gpioMap_t key) {
 }
 
 // down flag
-void buttonPressed(gpioMap_t tecla) {
-	switch(tecla){
+void buttonPressed(gpioMap_t key) {
+	switch(key){
 	case TEC1:
 		redOn();
 		break;
@@ -25,8 +25,8 @@ void buttonPressed(gpioMap_t tecla) {
 }
 
 // up flag
-void buttonReleased(gpioMap_t tecla) {
-	switch(tecla){
+void buttonReleased(gpioMap_t key) {
+	switch(key){
 	case TEC1:
 		break;
 	case TEC2:

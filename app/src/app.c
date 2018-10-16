@@ -1,33 +1,38 @@
 /*============================================================================
  * Autor: Suarez, Sebastian Alejandro
- * Licencia:
- * Fecha:
  *===========================================================================*/
+
 #include "app.h"
 #include "debounce_fsm.h"
+#include "key_service.h"
 #include "sapi.h"
 
-debounceData_t keyOne, keyTwo;
+#define DEFAULT_BAUD_RATE 115200
+#define DEFAULT_DEBOUNCE_TIME 40
+
+debounceData_t  lowLevelKey, floorOneKey, floorTwoKey;
 
 int main(void) {
 
-	boardConfig();
+    boardConfig();
 
-	delay_t keyDelay;
+    delay_t keysDelay;
 
-	delayConfig(&keyDelay, 40);
+    delayConfig(&keysDelay, DEFAULT_DEBOUNCE_TIME);
 
-	uartConfig(UART_USB, 115200);
+    uartConfig(UART_USB, DEFAULT_BAUD_RATE);
 
-	initDebounceFsm(&keyOne, TEC1);
-	initDebounceFsm(&keyTwo, TEC2);
+    initDebounceFsm(&lowLevelKey, LOW_LEVEL);
+    initDebounceFsm(&floorOneKey, FIRST_FLOOR);
+    initDebounceFsm(&floorTwoKey, SECOND_FLOOR);
 
-	while (TRUE) {
-		if(delayRead(&keyDelay)) {
-			updateDebounceFsm(&keyOne);
-			updateDebounceFsm(&keyTwo);
-		}
-	}
-	return 0;
+    while (TRUE) {
+        if (delayRead(&keysDelay)) {
+            updateDebounceFsm(&lowLevelKey);
+            updateDebounceFsm(&floorOneKey);
+            updateDebounceFsm(&floorTwoKey);
+        }
+    }
+    return 0;
 }
 

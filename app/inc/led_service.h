@@ -3,6 +3,7 @@
 
 #include "sapi.h"
 
+void actualFloorLedIndicator(uint16_t floor);
 void redOn();
 void redOff();
 void greenOn();
