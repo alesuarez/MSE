@@ -1,5 +1,5 @@
-app/out/app/src/traffic_ligth_mef.o: app/src/traffic_ligth_mef.c \
- app/src/../inc/traffic_light_mef.h libs/sapi/sapi_v0.5.2/base/inc/sapi.h \
+app/out/app/src/elevator_fsm.o: app/src/elevator_fsm.c \
+ app/inc/elevator_fsm.h libs/sapi/sapi_v0.5.2/base/inc/sapi.h \
  libs/sapi/sapi_v0.5.2/base/inc/sapi_datatypes.h \
  libs/lpc_open/lpc_chip_43xx/inc/chip.h \
  libs/lpc_open/lpc_chip_43xx/inc/sys_config.h \
@@ -116,4 +116,4 @@ app/out/app/src/traffic_ligth_mef.o: app/src/traffic_ligth_mef.c \
  libs/sapi/sapi_v0.5.2/external_peripherals/inc/sapi_magnetometer_qmc5883l.h \
  libs/sapi/sapi_v0.5.2/external_peripherals/inc/sapi_imu_mpu9250.h \
  libs/sapi/sapi_v0.5.2/external_peripherals/inc/sapi_ultrasonic_hcsr04.h \
- app/inc/led_service.h
+ app/inc/key_service.h app/inc/led_service.h app/inc/elevator_fsm.h

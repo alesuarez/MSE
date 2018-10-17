@@ -10,7 +10,7 @@ void initDebounceFsm(debounceData_t * dataStruct, gpioMap_t key) {
 	return;
 }
 
-void updateDebounceFsm(debounceData_t * ptrDataStruct) {
+void updateDebounceFsm(debounceData_t * ptrDataStruct, gpioMap_t * pressedKey) {
 
 	switch (ptrDataStruct->state) {
 
@@ -22,7 +22,9 @@ void updateDebounceFsm(debounceData_t * ptrDataStruct) {
 
 	case BUTTON_FALLING_STATE:
 		if (isPress(ptrDataStruct->key)) {
-				buttonPressed(ptrDataStruct->key);
+			if(buttonPressed(ptrDataStruct->key)) {
+				*pressedKey = ptrDataStruct->key;
+			}
 				ptrDataStruct->state = BUTTON_DOWN_STATE;
 			} else {
 				ptrDataStruct->state = BUTTON_UP_STATE;
@@ -37,7 +39,9 @@ void updateDebounceFsm(debounceData_t * ptrDataStruct) {
 
 	case BUTTON_RISING_STATE:
 		if (notPress(ptrDataStruct->key)) {
-				buttonReleased(ptrDataStruct->key);
+				if (buttonReleased(ptrDataStruct->key)) {
+					*pressedKey = MOTOR_KEY;
+				}
 				ptrDataStruct->state = BUTTON_UP_STATE;
 			} else {
 				ptrDataStruct->state = BUTTON_DOWN_STATE;

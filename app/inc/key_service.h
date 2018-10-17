@@ -11,7 +11,8 @@
 bool_t isPress(gpioMap_t key);
 bool_t notPress(gpioMap_t key);
 
-void buttonPressed(gpioMap_t key);
-void buttonReleased(gpioMap_t key);
+bool_t buttonPressed(gpioMap_t key);
+bool_t buttonReleased(gpioMap_t key);
+uint16_t mapKeyToFloor(gpioMap_t key);
 
 #endif

@@ -1,15 +1,19 @@
 #include "elevator_fsm.h"
+#include "key_service.h"
+#include "led_service.h"
 
-#define DEFAULT_MAX_STOPPED_TIME_SEG 10000
+#define DEFAULT_MAX_STOPPED_10_SEG 250
 #define ZERO 0
 
 ElevatorFsmState actualElevatorFsmState;
+
+static bool_t isAcctionKey(gpioMap_t key);
 
 void initElevatorFsm() {
     actualElevatorFsmState = LOW_FLOOR_STATE;
 }
 
-void updateElevatorFsm(Action action, uint16_t floor, Key key) {
+void updateElevatorFsm(gpioMap_t key) {
     static uint16_t actualFloor = LOW_FLOOR;
     static uint16_t requiredFloor = LOW_FLOOR;
     static uint16_t stoppedTime = ZERO;
@@ -17,8 +21,8 @@ void updateElevatorFsm(Action action, uint16_t floor, Key key) {
     switch (actualElevatorFsmState) {
 
         case LOW_FLOOR_STATE:
-            if (acction == GOING_UP) {
-                requiredFloor = floor;
+            if (isAcctionKey(key)) {
+                requiredFloor = mapKeyToFloor(key);
                 actualElevatorFsmState = GOING_UP_STATE;
             }
             break;
@@ -26,22 +30,23 @@ void updateElevatorFsm(Action action, uint16_t floor, Key key) {
         case GOING_UP_STATE:
             if (requiredFloor == actualFloor) {
                 actualElevatorFsmState = STOPPED_STATE;
-            } else if (Key == MOTOR_KEY) {
+            } else if (key == MOTOR_KEY) {
                 actualFloor++;
             }
             break;
 
         case STOPPED_STATE:
-            if (stoppedTime >= DEFAULT_MAX_STOPPED_TIME_SEG) {
+            if (stoppedTime >= DEFAULT_MAX_STOPPED_10_SEG) {
                 requiredFloor = LOW_FLOOR;
                 stoppedTime = ZERO;
-            } else if (key == LOW_FLOOR_KEY || key == FIRST_FLOOR_KEY || key == SECOND_FLOOR_KEY ){
+                actualElevatorFsmState = GOING_DOWN_STATE;
+            } else if (isAcctionKey(key)){
                 if (actualFloor - requiredFloor > ZERO) {
                     actualElevatorFsmState = GOING_DOWN_STATE;
                 } else {
                     actualElevatorFsmState = GOING_UP_STATE;
                 }
-                requiredFloor = floor;
+                requiredFloor = mapKeyToFloor(key);
             }
             stoppedTime++;
             break;
@@ -49,7 +54,7 @@ void updateElevatorFsm(Action action, uint16_t floor, Key key) {
         case GOING_DOWN_STATE:
             if (requiredFloor == actualFloor) {
                 actualElevatorFsmState = STOPPED_STATE;
-            } else if (Key == MOTOR_KEY) {
+            } else if (key == MOTOR_KEY) {
                 actualFloor--;
             }
             break;
@@ -60,6 +65,11 @@ void updateElevatorFsm(Action action, uint16_t floor, Key key) {
     }
 
     actualFloorLedIndicator(actualFloor);
-
+    motorStateIndicator(actualElevatorFsmState);
+    actualFloor = actualFloor % 3;
     return;
+}
+
+static bool_t isAcctionKey(gpioMap_t key) {
+	return key == LOW_FLOOR_KEY || key == FIRST_FLOOR_KEY || key == SECOND_FLOOR_KEY;
 }

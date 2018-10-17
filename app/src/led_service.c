@@ -1,9 +1,19 @@
 #include "led_service.h"
 #include "elevator_fsm.h"
 
-#define RED_LED LED1
-#define YELLOW_LED LED2
-#define GREEN_LED LED3
+#define RED_LED 	LED1
+#define YELLOW_LED 	LED2
+#define GREEN_LED 	LED3
+
+static void redOn();
+static void redOff();
+static void greenOn();
+static void yellowOn();
+static void redYellowOn();
+static void rgbBlueLed();
+static void rgbRedLed();
+static void rgbGreenLed();
+static void error();
 
 void actualFloorLedIndicator(uint16_t floor) {
 	switch(floor){
@@ -17,7 +27,7 @@ void actualFloorLedIndicator(uint16_t floor) {
 			greenOn();
 			break;
 		default:
-			error()
+			error();
 			break;
 	}
 	return;
@@ -25,7 +35,7 @@ void actualFloorLedIndicator(uint16_t floor) {
 
 void motorStateIndicator(ElevatorFsmState elevatorFsmState) {
 	switch(elevatorFsmState){
-		case FIRST_FLOOR_STATE:
+		case LOW_FLOOR_STATE:
 			rgbBlueLed();
 			break;
 		case GOING_UP_STATE:
@@ -44,47 +54,53 @@ void motorStateIndicator(ElevatorFsmState elevatorFsmState) {
 	return;
 }
 
-void redOn() {
+static void redOn() {
 	gpioWrite(RED_LED, TRUE);
 	gpioWrite(YELLOW_LED, FALSE);
 	gpioWrite(GREEN_LED, FALSE);
 }
 
-void redOff() {
+static void redOff() {
 	gpioWrite(RED_LED, FALSE);
 }
 
-void greenOn() {
+static void greenOn() {
 	gpioWrite(RED_LED, FALSE);
 	gpioWrite(YELLOW_LED, FALSE);
 	gpioWrite(GREEN_LED, TRUE);
 }
 
-void yellowOn() {
+static void yellowOn() {
 	gpioWrite(RED_LED, FALSE);
 	gpioWrite(YELLOW_LED, TRUE);
 	gpioWrite(GREEN_LED, FALSE);
 }
 
-void redYellowOn() {
+static void redYellowOn() {
 	gpioWrite(RED_LED, TRUE);
 	gpioWrite(YELLOW_LED, TRUE);
 	gpioWrite(GREEN_LED, FALSE);
 }
 
-void rgbBlueLed() {
+static void rgbBlueLed() {
 	gpioWrite(LEDB, TRUE);
+	gpioWrite(LEDR, FALSE);
+	gpioWrite(LEDG, FALSE);
 }
 
-void rgbRedLed() {
+static void rgbRedLed() {
+	gpioWrite(LEDB, FALSE);
 	gpioWrite(LEDR, TRUE);
+	gpioWrite(LEDG, FALSE);
 }
 
-void rgbGreenLed() {
+static void rgbGreenLed() {
+	gpioWrite(LEDB, FALSE);
+	gpioWrite(LEDR, FALSE);
 	gpioWrite(LEDG, TRUE);
 }
 
-void error() {
+static void error() {
 	gpioWrite(RED_LED, TRUE);
 	gpioWrite(YELLOW_LED, TRUE);
 	gpioWrite(GREEN_LED, TRUE);
