@@ -16,6 +16,6 @@ typedef enum {
 
 void initElevatorFsm();
 
-void updateElevatorFsm(gpioMap_t key);
+void updateElevatorFsm(gpioMap_t * key);
 
 #endif

@@ -27,4 +27,5 @@ uint16_t mapKeyToFloor(gpioMap_t key) {
 	} else if (key == SECOND_FLOOR_KEY) {
 		return SECOND_FLOOR;
 	}
+	return LOW_FLOOR;
 }
