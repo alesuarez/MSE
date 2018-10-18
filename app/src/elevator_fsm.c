@@ -1,6 +1,7 @@
 #include "elevator_fsm.h"
 #include "key_service.h"
 #include "led_service.h"
+#include "uart_service.h"
 
 #define DEFAULT_MAX_STOPPED_10_SEG 200
 #define ZERO 0
@@ -74,6 +75,8 @@ void updateElevatorFsm(gpioMap_t * key) {
 	motorStateIndicator(actualElevatorFsmState);	// actualizacion de led de motor
 	actualFloor = actualFloor % 3;					// borro la tecla presionada
 	*key = T_FIL1;
+	printElevatorStatus();
+
 	return;
 }
 

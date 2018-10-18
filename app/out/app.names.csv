@@ -1,0 +1,207 @@
+app/out/app.elf:1a00035a 0000000e t isAcctionKey
+app/out/app.elf:10000090 00000002 b actualFloor.13412
+app/out/app.elf:10000092 00000002 b requiredFloor.13413
+app/out/app.elf:10000094 00000002 b stoppedTime.13414
+app/out/app.elf:1a000494 0000001c t redOn
+app/out/app.elf:1a0004b0 0000001c t yellowOn
+app/out/app.elf:1a0004cc 0000001c t greenOn
+app/out/app.elf:1a0004e8 00000024 t error
+app/out/app.elf:1a00050c 0000001c t rgbGreenLed
+app/out/app.elf:1a000528 0000001c t rgbBlueLed
+app/out/app.elf:1a000544 0000001c t rgbRedLed
+app/out/app.elf:1a001b8c 00000004 t InitClkStates
+app/out/app.elf:1a001b90 00000074 t pinmuxing
+app/out/app.elf:1a000834 0000002c t Chip_UART_GetIndex
+app/out/app.elf:1a001c04 00000008 t UART_BClock
+app/out/app.elf:1a001c0c 00000008 t UART_PClock
+app/out/app.elf:1a0009dc 000000a4 t pll_calc_divs
+app/out/app.elf:1a000a80 0000010c t pll_get_frac
+app/out/app.elf:1a000b8c 0000004c t Chip_Clock_FindBaseClock
+app/out/app.elf:1a000e00 00000022 t Chip_Clock_GetDivRate
+app/out/app.elf:10000098 00000008 b audio_usb_pll_freq
+app/out/app.elf:1a001c20 0000006c t periph_to_base
+app/out/app.elf:1a001c8c 00000048 t InitClkStates
+app/out/app.elf:10000000 00000004 d ClockSpeed
+app/out/app.elf:1a001cd4 00000048 t lpcUarts
+app/out/app.elf:100000a0 00000004 b callBackFuncParams
+app/out/app.elf:100000a8 00000008 b tickCounter
+app/out/app.elf:100000b0 00000004 b tickHookFunction
+app/out/app.elf:1a0012a4 00000002 t errorOcurred
+app/out/app.elf:1a0012a6 00000002 t doNothing
+app/out/app.elf:10000008 00000040 d timer_dd
+app/out/app.elf:1a0013b0 00000034 t gpioObtainPinInit
+app/out/app.elf:100000b4 00000004 b g_hUsb
+app/out/app.elf:1a001798 00000010 t clearInterrupt
+app/out/app.elf:1a0017a8 0000005c t serveInterrupt
+app/out/app.elf:10000048 00000048 d ultrasonicSensors
+app/out/app.elf:1a001e54 00000003 t ultrasonicSensorsIrqMap
+app/out/app.elf:1a001e5c t __init_array_end
+app/out/app.elf:1a001e58 b __preinit_array_end
+app/out/app.elf:1a001e58 t __init_array_start
+app/out/app.elf:1a001e58 b __preinit_array_start
+app/out/app.elf:1a000c24 0000001c T Chip_Clock_GetDividerSource
+app/out/app.elf:1a000334 0000000a T buttonReleased
+app/out/app.elf:1a001328 00000044 T TIMER2_IRQHandler
+app/out/app.elf:1a000184 00000002 W DebugMon_Handler
+app/out/app.elf:1a0001ba 00000002 W RIT_IRQHandler
+app/out/app.elf:1a080000 A __top_MFlashA512
+app/out/app.elf:1a0001ba 00000002 W ADCHS_IRQHandler
+app/out/app.elf:1a000114 T __section_table_start
+app/out/app.elf:1a0001ba 00000002 W FLASH_EEPROM_IRQHandler
+app/out/app.elf:1a0001ba 00000002 W I2C0_IRQHandler
+app/out/app.elf:1a00077c 00000008 T __stdio_init
+app/out/app.elf:1a001754 00000042 T delayRead
+app/out/app.elf:1a00017a 00000002 W HardFault_Handler
+app/out/app.elf:1a000000 A __vectors_start__
+app/out/app.elf:1a001270 00000034 T SysTick_Handler
+app/out/app.elf:1a0008b4 00000040 T Chip_UART_SetBaud
+app/out/app.elf:100000b8 00000001 B actualElevatorFsmState
+app/out/app.elf:1a0001ba 00000002 W SDIO_IRQHandler
+app/out/app.elf:1a0001ba 00000002 W ATIMER_IRQHandler
+app/out/app.elf:1a000186 00000002 W PendSV_Handler
+app/out/app.elf:1a000178 00000002 W NMI_Handler
+app/out/app.elf:1a001e64 R __exidx_end
+app/out/app.elf:1a000150 T __data_section_table_end
+app/out/app.elf:1a0001ba 00000002 W I2C1_IRQHandler
+app/out/app.elf:100000c0 00000020 B floorOneKey
+app/out/app.elf:1a0001ba 00000002 W UART1_IRQHandler
+app/out/app.elf:1a0001ba 00000002 W GPIO5_IRQHandler
+app/out/app.elf:1a0001ba 00000002 W CAN1_IRQHandler
+app/out/app.elf:100000e0 00000020 B floorTwoKey
+app/out/app.elf:53ff71be A __valid_user_code_checksum
+app/out/app.elf:1a001e64 R _etext
+app/out/app.elf:1a0001ba 00000002 W USB1_IRQHandler
+app/out/app.elf:1a0001ba 00000002 W I2S0_IRQHandler
+app/out/app.elf:1a00136c 00000044 T TIMER3_IRQHandler
+app/out/app.elf:1a000ea2 0000000c T Chip_Clock_GetBaseClocktHz
+app/out/app.elf:1a0001ba 00000002 W UART0_IRQHandler
+app/out/app.elf:1a0001a8 00000012 T bss_init
+app/out/app.elf:1a0001ba 00000002 W SGPIO_IRQHandler
+app/out/app.elf:1a001824 T __aeabi_uldivmod
+app/out/app.elf:1000015c ? _noinit
+app/out/app.elf:1a0011b6 00000018 T uartWriteString
+app/out/app.elf:10000148 00000004 B SystemCoreClock
+app/out/app.elf:1a000860 00000054 T Chip_UART_Init
+app/out/app.elf:1a0001ba 00000002 W ADC0_IRQHandler
+app/out/app.elf:1a000180 00000002 W UsageFault_Handler
+app/out/app.elf:1a000eec 0000004c T Chip_Clock_GetRate
+app/out/app.elf:1a0001ba 00000002 W GPIO6_IRQHandler
+app/out/app.elf:1a0007bc 0000006c T Board_SetupClocking
+app/out/app.elf:20008000 A __top_RamAHB32
+app/out/app.elf:1a001854 000002cc T __udivmoddi4
+app/out/app.elf:1a001b84 00000004 T ExtRateIn
+app/out/app.elf:1a0001ba 00000002 W IntDefaultHandler
+app/out/app.elf:1a000300 T __CRP_WORD_END__
+app/out/app.elf:1a00031e 00000008 T notPress
+app/out/app.elf:1a00180e 0000000a T GPIO1_IRQHandler
+app/out/app.elf:1a0001ba 00000002 W SSP0_IRQHandler
+app/out/app.elf:1a001e5c R __exidx_start
+app/out/app.elf:1a0002fc 00000004 T CRP_WORD
+app/out/app.elf:1a001b24 00000048 T __libc_init_array
+app/out/app.elf:1a0001ba 00000002 W ADC1_IRQHandler
+app/out/app.elf:1a000300 00000010 T printElevatorStatus
+app/out/app.elf:1a000658 00000076 T updateDebounceFsm
+app/out/app.elf:1a000754 00000002 T _init
+app/out/app.elf:1a000114 T __data_section_table
+app/out/app.elf:10000100 00000020 B lowLevelKey
+app/out/app.elf:1a0001ba 00000002 W RTC_IRQHandler
+app/out/app.elf:1000015c B _ebss
+app/out/app.elf:1a0012a8 00000040 T TIMER0_IRQHandler
+app/out/app.elf:1a0006d0 00000084 T Reset_Handler
+app/out/app.elf:1a0011f4 0000007c T tickInit
+app/out/app.elf:20010000 A __top_RamAHB_ETB16
+app/out/app.elf:1a0001ba 00000002 W SPI_IRQHandler
+app/out/app.elf:1a0001ba 00000002 W LCD_IRQHandler
+app/out/app.elf:1a000bd8 0000004c T Chip_Clock_EnableCrystal
+app/out/app.elf:10008000 A __top_RamLoc32
+app/out/app.elf:1a00018a 0000001e T data_init
+app/out/app.elf:1a0012e8 00000040 T TIMER1_IRQHandler
+app/out/app.elf:1a0001ba 00000002 W UART2_IRQHandler
+app/out/app.elf:1a000d94 0000006c T Chip_Clock_GetMainPLLHz
+app/out/app.elf:1a001d1c 00000136 T gpioPinsInit
+app/out/app.elf:1a00119c 0000001a T uartWriteByte
+app/out/app.elf:1a001818 0000000a T GPIO2_IRQHandler
+app/out/app.elf:1a000e7c 00000026 T Chip_Clock_GetBaseClock
+app/out/app.elf:10000090 B _bss
+app/out/app.elf:1a001734 00000020 T delayInit
+app/out/app.elf:1a0001ba 00000002 W I2S1_IRQHandler
+app/out/app.elf:1a000f4c 00000002 T Chip_GPIO_Init
+app/out/app.elf:1a001b88 00000004 T OscRateIn
+app/out/app.elf:1a001120 0000007c T uartInit
+app/out/app.elf:1000015c ? _end_noinit
+app/out/app.elf:10008000 A _vStackTop
+app/out/app.elf:1a0001ba 00000002 W SSP1_IRQHandler
+app/out/app.elf:1a000178 T __bss_section_table_end
+app/out/app.elf:1a000326 0000000e T buttonPressed
+app/out/app.elf:1a0013e4 00000194 T gpioInit
+app/out/app.elf:1a001b20 00000002 W __aeabi_ldiv0
+app/out/app.elf:10000120 00000001 B pressedKey
+app/out/app.elf:1a001624 0000001c T USB0_IRQHandler
+app/out/app.elf:1a0001ba 00000002 W GPIO3_IRQHandler
+app/out/app.elf:1a0001ba 00000002 W SCT_IRQHandler
+app/out/app.elf:1a000310 0000000e T isPress
+app/out/app.elf:1a000c40 0000001c T Chip_Clock_GetDividerDivisor
+app/out/app.elf:1a0002fc T __CRP_WORD_START__
+app/out/app.elf:1a001b6c 00000010 T memset
+app/out/app.elf:1a00017c 00000002 W MemManage_Handler
+app/out/app.elf:1a0005b0 000000a0 T main
+app/out/app.elf:1a000650 00000008 T initDebounceFsm
+app/out/app.elf:1a0001ba 00000002 W WDT_IRQHandler
+app/out/app.elf:2000c000 A __top_RamAHB16
+app/out/app.elf:1008a000 A __top_RamLoc40
+app/out/app.elf:1a000182 00000002 W SVC_Handler
+app/out/app.elf:10000004 00000004 D DWT_CTRL
+app/out/app.elf:1a0010f4 00000018 T uartTxReady
+app/out/app.elf:1a0001ba 00000002 W GPIO7_IRQHandler
+app/out/app.elf:1a000eb0 0000003c T Chip_Clock_EnableOpts
+app/out/app.elf:1a000c5c 000000b8 T Chip_Clock_GetClockInputHz
+app/out/app.elf:1a000d14 00000080 T Chip_Clock_CalcMainPLLValue
+app/out/app.elf:1a0010a4 00000034 T SystemInit
+app/out/app.elf:1a0001ba 00000002 W SPIFI_IRQHandler
+app/out/app.elf:1a0001ba 00000002 W QEI_IRQHandler
+app/out/app.elf:1a000150 T __bss_section_table
+app/out/app.elf:1a001578 00000056 T gpioWrite
+app/out/app.elf:10000158 00000004 B g_pUsbApi
+app/out/app.elf:1a000784 00000038 T Board_SetupMuxing
+app/out/app.elf:1a000584 0000002c T motorStateIndicator
+app/out/app.elf:1a0008f4 000000e8 T Chip_UART_SetBaudFDR
+app/out/app.elf:1a0011d0 0000000c T tickRead
+app/out/app.elf:10000150 00000008 B tickRateMS
+app/out/app.elf:1a0001ba 00000002 W ETH_IRQHandler
+app/out/app.elf:10000000 ? _end_uninit_RESERVED
+app/out/app.elf:1a00110c 00000014 T uartTxWrite
+app/out/app.elf:1a0001ba 00000002 W CAN0_IRQHandler
+app/out/app.elf:10000000 D _data
+app/out/app.elf:1000015c B _pvHeapStart
+app/out/app.elf:1a000374 00000120 T updateElevatorFsm
+app/out/app.elf:1a000178 T __section_table_end
+app/out/app.elf:1a0001ba 00000002 W GINT0_IRQHandler
+app/out/app.elf:1a0001ba 00000002 W DAC_IRQHandler
+app/out/app.elf:1a000758 00000024 T Board_Debug_Init
+app/out/app.elf:10000090 D _edata
+app/out/app.elf:1a0001ba 00000002 W M0SUB_IRQHandler
+app/out/app.elf:1a000f50 00000154 T Chip_SetupCoreClock
+app/out/app.elf:1a001804 0000000a T GPIO0_IRQHandler
+app/out/app.elf:1a000000 00000040 T g_pfnVectors
+app/out/app.elf:1a000f38 00000014 T SystemCoreClockUpdate
+app/out/app.elf:1a0001ba 00000002 W DMA_IRQHandler
+app/out/app.elf:1a0001ba 00000002 W EVRT_IRQHandler
+app/out/app.elf:1b080000 A __top_MFlashB512
+app/out/app.elf:10000128 00000020 B motorKey
+app/out/app.elf:1a001b20 00000002 W __aeabi_idiv0
+app/out/app.elf:1a00017e 00000002 W BusFault_Handler
+app/out/app.elf:1a0001ba 00000002 W UART3_IRQHandler
+app/out/app.elf:1a0001ba 00000002 W MCPWM_IRQHandler
+app/out/app.elf:1a00033e 0000001c T mapKeyToFloor
+app/out/app.elf:1a0001ba 00000002 W M0APP_IRQHandler
+app/out/app.elf:1a0015ce 00000054 T gpioRead
+app/out/app.elf:1a001640 000000f4 T boardInit
+app/out/app.elf:1a000040 000000d4 T g_pfnVendorVectors
+app/out/app.elf:1a0001ba 00000002 W GINT1_IRQHandler
+app/out/app.elf:1a000368 0000000c T initElevatorFsm
+app/out/app.elf:1a0011dc 00000018 T tickPowerSet
+app/out/app.elf:1a000e24 00000058 T Chip_Clock_SetBaseClock
+app/out/app.elf:1a0010d8 0000001c T cyclesCounterInit
+app/out/app.elf:1a0001ba 00000002 W GPIO4_IRQHandler
+app/out/app.elf:1a000828 0000000c T Board_SystemInit
+app/out/app.elf:1a000560 00000024 T actualFloorLedIndicator
