@@ -1,108 +1,104 @@
 #include "led_service.h"
-#include "elevator_fsm.h"
+#include "door_fsm.h"
 
-#define RED_LED 	LED1
-#define YELLOW_LED 	LED2
-#define GREEN_LED 	LED3
+#define DEFAULT_ON_TIME_LED 200
 
-static void redOn();
-static void redOff();
-static void greenOn();
-static void yellowOn();
-static void redYellowOn();
-static void rgbBlueLed();
-static void rgbRedLed();
+static void ledOneOn();
+static void ledTwoOn();
+static void ledThreeOn();
+static void ledsOff();
+
 static void rgbGreenLed();
-static void error();
+static void rgbRedLedOn();
+static void rgbRedLedOff();
 
-void actualFloorLedIndicator(uint16_t floor) {
-	switch(floor){
-		case LOW_FLOOR:
-			redOn();
-			break;
-		case FIRST_FLOOR:
-			yellowOn();
-			break;
-		case SECOND_FLOOR:
-			greenOn();
-			break;
-		default:
-			error();
-			break;
-	}
-	return;
-}
+void actualDoorLedIndicator(DoorFsmState doorState) {
+	static bool_t ledOn = TRUE;
+	static uint16_t ledOnTime = ZERO_TIME;
 
-void motorStateIndicator(ElevatorFsmState elevatorFsmState) {
-	switch(elevatorFsmState){
-		case LOW_FLOOR_STATE:
-			rgbBlueLed();
-			break;
-		case GOING_UP_STATE:
-			rgbGreenLed();
+	switch(doorState){
+		case OPENING_STATE:
+			ledOneOn();
 			break;
 		case STOPPED_STATE:
-			rgbBlueLed();
+			ledTwoOn();
 			break;
-		case GOING_DOWN_STATE:
-			rgbRedLed();
+		case CLOSING_STATE:
+			ledThreeOn();
+			break;
+		case CLOSED_STATE:
+			rgbGreenLed();
 			break;
 		default:
-			error();
+			ledsOff();
 			break;
 	}
+	// todo: parpadeo RGB rojo
 	return;
 }
 
-static void redOn() {
-	gpioWrite(RED_LED, TRUE);
-	gpioWrite(YELLOW_LED, FALSE);
-	gpioWrite(GREEN_LED, FALSE);
-}
-
-static void redOff() {
-	gpioWrite(RED_LED, FALSE);
-}
-
-static void greenOn() {
-	gpioWrite(RED_LED, FALSE);
-	gpioWrite(YELLOW_LED, FALSE);
-	gpioWrite(GREEN_LED, TRUE);
-}
-
-static void yellowOn() {
-	gpioWrite(RED_LED, FALSE);
-	gpioWrite(YELLOW_LED, TRUE);
-	gpioWrite(GREEN_LED, FALSE);
-}
-
-static void redYellowOn() {
-	gpioWrite(RED_LED, TRUE);
-	gpioWrite(YELLOW_LED, TRUE);
-	gpioWrite(GREEN_LED, FALSE);
-}
-
-static void rgbBlueLed() {
-	gpioWrite(LEDB, TRUE);
-	gpioWrite(LEDR, FALSE);
+static void ledOneOn() {
+	gpioWrite(LED1, TRUE);
+	gpioWrite(LED2, FALSE);
+	gpioWrite(LED3, FALSE);
+	gpioWrite(LEDB, FALSE);
 	gpioWrite(LEDG, FALSE);
 }
 
-static void rgbRedLed() {
+static void ledTwoOn() {
+	gpioWrite(LED1, FALSE);
+	gpioWrite(LED2, TRUE);
+	gpioWrite(LED3, FALSE);
 	gpioWrite(LEDB, FALSE);
-	gpioWrite(LEDR, TRUE);
+	gpioWrite(LEDG, FALSE);
+}
+
+static void ledThreeOn() {
+	gpioWrite(LED1, FALSE);
+	gpioWrite(LED2, FALSE);
+	gpioWrite(LED3, TRUE);
+	gpioWrite(LEDB, FALSE);
+	gpioWrite(LEDG, FALSE);
+}
+
+static void ledsOff() {
+	gpioWrite(LED1, FALSE);
+	gpioWrite(LED2, FALSE);
+	gpioWrite(LED3, FALSE);
+	gpioWrite(LEDB, FALSE);
 	gpioWrite(LEDG, FALSE);
 }
 
 static void rgbGreenLed() {
+	gpioWrite(LED1, FALSE);
+	gpioWrite(LED2, FALSE);
+	gpioWrite(LED3, FALSE);
 	gpioWrite(LEDB, FALSE);
 	gpioWrite(LEDR, FALSE);
 	gpioWrite(LEDG, TRUE);
 }
 
-static void error() {
-	gpioWrite(RED_LED, TRUE);
-	gpioWrite(YELLOW_LED, TRUE);
-	gpioWrite(GREEN_LED, TRUE);
-	gpioWrite(LEDG, TRUE);
+void rgbRedStatus(DoorFsmState doorState) {
+	static bool_t ledStatus = TRUE;
+	if (doorState != CLOSED_STATE) {
+		if(ledStatus) {
+			rgbRedLedOn();
+			ledStatus = FALSE;
+		} else {
+			rgbRedLedOff();
+			ledStatus = TRUE;
+		}
+	}
+}
+
+static void rgbRedLedOn() {
+	//gpioWrite(LEDB, FALSE);
+	gpioWrite(LEDR, TRUE);
+	//gpioWrite(LEDG, FALSE);
+}
+
+static void rgbRedLedOff() {
+	//gpioWrite(LEDB, FALSE);
+	gpioWrite(LEDR, FALSE);
+	//gpioWrite(LEDG, FALSE);
 }

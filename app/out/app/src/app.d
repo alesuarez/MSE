@@ -116,4 +116,5 @@ app/out/app/src/app.o: app/src/app.c app/inc/app.h app/inc/debounce_fsm.h \
  libs/sapi/sapi_v0.5.2/external_peripherals/inc/sapi_magnetometer_qmc5883l.h \
  libs/sapi/sapi_v0.5.2/external_peripherals/inc/sapi_imu_mpu9250.h \
  libs/sapi/sapi_v0.5.2/external_peripherals/inc/sapi_ultrasonic_hcsr04.h \
- app/inc/elevator_fsm.h app/inc/key_service.h
+ app/inc/door_fsm.h app/inc/key_service.h app/inc/led_service.h \
+ app/inc/door_fsm.h

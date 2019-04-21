@@ -40,7 +40,7 @@ void updateDebounceFsm(debounceData_t * ptrDataStruct, gpioMap_t * pressedKey) {
 	case BUTTON_RISING_STATE:
 		if (notPress(ptrDataStruct->key)) {
 				if (buttonReleased(ptrDataStruct->key)) {
-					*pressedKey = MOTOR_KEY;
+					*pressedKey = ptrDataStruct->key;
 				}
 				ptrDataStruct->state = BUTTON_UP_STATE;
 			} else {

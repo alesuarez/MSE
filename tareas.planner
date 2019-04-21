@@ -1,0 +1,360 @@
+<?xml version="1.0"?>
+<project name="" company="" manager="" phase="" project-start="20181115T000000Z" mrproject-version="2" calendar="1">
+  <properties/>
+  <phases/>
+  <calendars>
+    <day-types>
+      <day-type id="0" name="Jornada laboral" description="Un d&#xED;a de trabajo predeterminado"/>
+      <day-type id="1" name="Jornada de descanso" description="Un d&#xED;a de descanso predeterminado"/>
+      <day-type id="2" name="Usar base" description="Usar d&#xED;a del calendario base"/>
+      <day-type id="3" name="Jornada Sabado" description=""/>
+    </day-types>
+    <calendar id="1" name="Predeterminado">
+      <default-week mon="0" tue="0" wed="0" thu="0" fri="0" sat="1" sun="1"/>
+      <overridden-day-types>
+        <overridden-day-type id="3">
+          <interval start="1500" end="1800"/>
+        </overridden-day-type>
+        <overridden-day-type id="0">
+          <interval start="1900" end="2200"/>
+        </overridden-day-type>
+      </overridden-day-types>
+      <days>
+        <day date="20181110" type="day-type" id="1"/>
+        <day date="20191116" type="day-type" id="3"/>
+        <day date="20190209" type="day-type" id="3"/>
+        <day date="20181117" type="day-type" id="3"/>
+        <day date="20191123" type="day-type" id="3"/>
+        <day date="20191102" type="day-type" id="3"/>
+        <day date="20190216" type="day-type" id="3"/>
+        <day date="20181124" type="day-type" id="1"/>
+        <day date="20181103" type="day-type" id="3"/>
+        <day date="20190214" type="day-type" id="1"/>
+        <day date="20191130" type="day-type" id="3"/>
+        <day date="20191109" type="day-type" id="3"/>
+        <day date="20190223" type="day-type" id="3"/>
+        <day date="20190202" type="day-type" id="3"/>
+      </days>
+      <calendar id="2" name="Semaforo no videntes">
+        <default-week mon="0" tue="0" wed="0" thu="0" fri="0" sat="3" sun="2"/>
+        <overridden-day-types>
+          <overridden-day-type id="3">
+            <interval start="1500" end="1800"/>
+          </overridden-day-type>
+          <overridden-day-type id="0">
+            <interval start="1900" end="2200"/>
+          </overridden-day-type>
+        </overridden-day-types>
+        <days>
+          <day date="20190413" type="day-type" id="3"/>
+          <day date="20190218" type="day-type" id="1"/>
+          <day date="20201114" type="day-type" id="0"/>
+          <day date="20181226" type="day-type" id="1"/>
+          <day date="20190309" type="day-type" id="3"/>
+          <day date="20190202" type="day-type" id="3"/>
+          <day date="20190221" type="day-type" id="1"/>
+          <day date="20190101" type="day-type" id="1"/>
+          <day date="20190720" type="day-type" id="3"/>
+          <day date="20190615" type="day-type" id="3"/>
+          <day date="20190227" type="day-type" id="1"/>
+          <day date="20190104" type="day-type" id="1"/>
+          <day date="20190511" type="day-type" id="3"/>
+          <day date="20190406" type="day-type" id="3"/>
+          <day date="20201107" type="day-type" id="0"/>
+          <day date="20191130" type="day-type" id="3"/>
+          <day date="20190126" type="day-type" id="1"/>
+          <day date="20181222" type="day-type" id="1"/>
+          <day date="20190305" type="day-type" id="1"/>
+          <day date="20181228" type="day-type" id="1"/>
+          <day date="20181225" type="day-type" id="1"/>
+          <day date="20190713" type="day-type" id="3"/>
+          <day date="20190608" type="day-type" id="3"/>
+          <day date="20190220" type="day-type" id="1"/>
+          <day date="20190504" type="day-type" id="3"/>
+          <day date="20190330" type="day-type" id="3"/>
+          <day date="20191123" type="day-type" id="3"/>
+          <day date="20190119" type="day-type" id="1"/>
+          <day date="20181215" type="day-type" id="3"/>
+          <day date="20190226" type="day-type" id="1"/>
+          <day date="20190103" type="day-type" id="1"/>
+          <day date="20181218" type="day-type" id="0"/>
+          <day date="20190301" type="day-type" id="1"/>
+          <day date="20190706" type="day-type" id="3"/>
+          <day date="20190601" type="day-type" id="3"/>
+          <day date="20190304" type="day-type" id="1"/>
+          <day date="20190427" type="day-type" id="3"/>
+          <day date="20201128" type="day-type" id="0"/>
+          <day date="20190323" type="day-type" id="3"/>
+          <day date="20190216" type="day-type" id="3"/>
+          <day date="20181224" type="day-type" id="1"/>
+          <day date="20191116" type="day-type" id="3"/>
+          <day date="20190112" type="day-type" id="1"/>
+          <day date="20181208" type="day-type" id="3"/>
+          <day date="20190219" type="day-type" id="1"/>
+          <day date="20181227" type="day-type" id="1"/>
+          <day date="20190629" type="day-type" id="3"/>
+          <day date="20190222" type="day-type" id="1"/>
+          <day date="20190525" type="day-type" id="3"/>
+          <day date="20201121" type="day-type" id="0"/>
+          <day date="20190420" type="day-type" id="3"/>
+          <day date="20190225" type="day-type" id="1"/>
+          <day date="20190102" type="day-type" id="1"/>
+          <day date="20190316" type="day-type" id="3"/>
+          <day date="20190209" type="day-type" id="3"/>
+          <day date="20181217" type="day-type" id="0"/>
+          <day date="20190228" type="day-type" id="1"/>
+          <day date="20190105" type="day-type" id="1"/>
+          <day date="20181201" type="day-type" id="3"/>
+          <day date="20190727" type="day-type" id="3"/>
+          <day date="20190622" type="day-type" id="3"/>
+          <day date="20190518" type="day-type" id="3"/>
+        </days>
+      </calendar>
+    </calendar>
+  </calendars>
+  <tasks>
+    <task id="1" name="Investigaci&#xF3;n preliminar" note="&#10;" work="255600" start="20181122T000000Z" end="20181213T210000Z" work-start="20181122T190000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="2" name="Investigaci&#xF3;n sobre productos similares en el mercado" note="" work="21600" duration="21600" start="20181122T000000Z" end="20181123T220000Z" work-start="20181122T190000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-duration">
+        <constraint type="must-start-on" time="20181122T000000Z"/>
+      </task>
+      <task id="3" name="Investigaci&#xF3;n sobre la frecuencia del sonido que deber&#xED;a producir el buzzer, acorde a las personas no videntes" note="" work="72000" start="20181123T220000Z" end="20181204T210000Z" work-start="20181126T190000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="2" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="4" name="Investigaci&#xF3;n sobre circuitos para aislar el sistema" note="" work="36000" start="20181204T210000Z" end="20181207T220000Z" work-start="20181204T210000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="3" type="FS"/>
+          <predecessor id="1" predecessor-id="2" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="5" name="Investigaci&#xF3;n sobre fuentes para alimentar el sistema" note="" work="54000" start="20181204T210000Z" end="20181211T210000Z" work-start="20181204T210000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="3" type="FS"/>
+          <predecessor id="1" predecessor-id="2" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="6" name="Investigaci&#xF3;n del m&#xF3;dulo de radio frecuencia" note="" work="14400" start="20181207T220000Z" end="20181211T200000Z" work-start="20181210T190000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="4" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="7" name="Investigaci&#xF3;n del m&#xF3;dulo WiFi" note="" work="14400" start="20181211T210000Z" end="20181212T220000Z" work-start="20181211T210000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="5" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="8" name="Investigaci&#xF3;n de c&#xF3;mo generar sonidos por medio de la CIAA u otras alternativas" note="" work="36000" start="20181204T210000Z" end="20181207T220000Z" work-start="20181204T210000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="3" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="9" name="Reuni&#xF3;n de arranque" note="" work="7200" start="20181212T220000Z" end="20181213T210000Z" work-start="20181213T190000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="8" type="FS"/>
+          <predecessor id="1" predecessor-id="7" type="FS"/>
+          <predecessor id="1" predecessor-id="6" type="FS"/>
+          <predecessor id="1" predecessor-id="5" type="FS"/>
+          <predecessor id="1" predecessor-id="4" type="FS"/>
+          <predecessor id="1" predecessor-id="3" type="FS"/>
+          <predecessor id="1" predecessor-id="2" type="FS"/>
+        </predecessors>
+      </task>
+    </task>
+    <task id="10" name="Desarrollo del hardware" note="" work="324000" start="20181213T210000Z" end="20190121T200000Z" work-start="20181213T210000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <predecessors>
+        <predecessor id="1" predecessor-id="1" type="FS"/>
+      </predecessors>
+      <task id="11" name="Analisis tecnico/economico" note="" work="36000" start="20181213T210000Z" end="20181218T220000Z" work-start="20181213T210000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="12" name="Elecci&#xF3;n de componentes" note="" work="36000" start="20181218T220000Z" end="20181224T200000Z" work-start="20181219T190000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="11" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="13" name="Reuni&#xF3;n para determinaci&#xF3;n de hardware" note="" work="14400" start="20181224T200000Z" end="20181225T210000Z" work-start="20181224T200000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="12" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="14" name="Selecci&#xF3;n de puertos" note="" work="21600" start="20181224T200000Z" end="20181226T200000Z" work-start="20181224T200000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="12" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="15" name="Dise&#xF1;o fuente de alimentaci&#xF3;n" note="" work="72000" start="20181224T200000Z" end="20190101T220000Z" work-start="20181224T200000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="12" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="16" name="Dise&#xF1;o PCB" note="" work="108000" start="20190101T220000Z" end="20190115T220000Z" work-start="20190102T190000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="15" type="FS"/>
+          <predecessor id="1" predecessor-id="14" type="FS"/>
+          <predecessor id="1" predecessor-id="13" type="FS"/>
+          <predecessor id="1" predecessor-id="12" type="FS"/>
+          <predecessor id="1" predecessor-id="11" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="17" name="Fabricaci&#xF3;n PCB" note="" work="14400" start="20190115T220000Z" end="20190117T200000Z" work-start="20190116T190000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="16" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="18" name="Verificaci&#xF3;n de la PCB" note="" work="21600" start="20190117T200000Z" end="20190121T200000Z" work-start="20190117T200000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="17" type="FS"/>
+        </predecessors>
+      </task>
+    </task>
+    <task id="19" name="Desarrollo de aplicaci&#xF3;n de android" note="" work="208800" start="20190114T000000Z" end="20190207T200000Z" work-start="20190114T190000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <predecessors>
+        <predecessor id="1" predecessor-id="1" type="FS"/>
+      </predecessors>
+      <task id="20" name="Dise&#xF1;o de pantallas" note="" work="72000" start="20190114T000000Z" end="20190122T210000Z" work-start="20190114T190000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20190114T000000Z"/>
+      </task>
+      <task id="21" name="Programacion de aplicacion" note="" work="108000" start="20190122T210000Z" end="20190204T210000Z" work-start="20190122T210000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="20" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="22" name="Testeo de aplicaci&#xF3;n" note="" work="28800" start="20190204T210000Z" end="20190207T200000Z" work-start="20190204T210000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="21" type="FS"/>
+          <predecessor id="1" predecessor-id="20" type="FS"/>
+        </predecessors>
+      </task>
+    </task>
+    <task id="23" name="Desarrollo de firmware " note="" work="612000" start="20190121T200000Z" end="20190227T200000Z" work-start="20190121T200000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <predecessors>
+        <predecessor id="1" predecessor-id="10" type="FS"/>
+        <predecessor id="1" predecessor-id="1" type="FS"/>
+      </predecessors>
+      <task id="24" name="Familiarizaci&#xF3;n con RTOS" note="" work="36000" start="20190121T200000Z" end="20190124T210000Z" work-start="20190121T200000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="25" name="Selecci&#xF3;n de bibliotecas de c&#xF3;digo a utilizar" note="" work="36000" start="20190124T210000Z" end="20190129T220000Z" work-start="20190124T210000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="24" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="26" name="Dise&#xF1;o de arquitectura" note="" work="72000" start="20190129T220000Z" end="20190206T210000Z" work-start="20190130T190000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="25" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="27" name="Dise&#xF1;o de protocolo de mensajes para la comunicaci&#xF3;n con dispositivos de advertencia" note="" work="72000" start="20190129T220000Z" end="20190206T210000Z" work-start="20190130T190000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="25" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="28" name="Dise&#xF1;o de drivers genericos para dispositivos de advertencia" note="" work="54000" start="20190129T220000Z" end="20190204T220000Z" work-start="20190130T190000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="25" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="29" name="Programaci&#xF3;n de protocolo de comunicaci&#xF3;n con dispositivos de advertencia" note="" work="72000" start="20190206T210000Z" end="20190215T200000Z" work-start="20190206T210000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="26" type="FS"/>
+          <predecessor id="1" predecessor-id="27" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="30" name="Programaci&#xF3;n de drivers genericos" note="" work="72000" start="20190206T210000Z" end="20190215T200000Z" work-start="20190206T210000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="26" type="FS"/>
+          <predecessor id="1" predecessor-id="28" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="31" name="Programaci&#xF3;n de arquitectura" note="" work="108000" start="20190206T210000Z" end="20190219T210000Z" work-start="20190206T210000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="26" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="32" name="Programaci&#xF3;n aprendizaje de secuencias del sem&#xE1;foro" note="" work="72000" start="20190219T210000Z" end="20190227T200000Z" work-start="20190219T210000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="31" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="33" name="Dise&#xF1;o de tareas del sistema operativo" note="" work="18000" start="20190219T210000Z" end="20190221T200000Z" work-start="20190219T210000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="31" type="FS"/>
+        </predecessors>
+      </task>
+    </task>
+    <task id="34" name="Ensayos" note="" work="345600" start="20190207T200000Z" end="20190308T220000Z" work-start="20190207T200000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <predecessors>
+        <predecessor id="1" predecessor-id="19" type="FS"/>
+        <predecessor id="1" predecessor-id="10" type="FS"/>
+        <predecessor id="1" predecessor-id="1" type="FS"/>
+      </predecessors>
+      <task id="35" name="Familiarizaci&#xF3;n con el framework de test unitarios" note="" work="28800" start="20190207T200000Z" end="20190209T180000Z" work-start="20190207T200000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="36" name="Realizaci&#xF3;n de test unitarios" note="" work="90000" start="20190209T180000Z" end="20190221T200000Z" work-start="20190211T190000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="35" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="37" name="Dise&#xF1;o de casos de prueba" note="" work="28800" start="20190209T180000Z" end="20190213T210000Z" work-start="20190211T190000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="35" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="38" name="Testeo manual" note="" work="36000" start="20190305T210000Z" end="20190308T220000Z" work-start="20190305T210000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="39" type="FS"/>
+          <predecessor id="1" predecessor-id="37" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="39" name="Desarrollo de sem&#xE1;foro para testeo" note="" work="162000" start="20190213T210000Z" end="20190305T210000Z" work-start="20190213T210000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="37" type="FS"/>
+        </predecessors>
+      </task>
+    </task>
+    <task id="40" name="Desarrollo del gabinete" note="" work="86400" start="20190308T220000Z" end="20190320T220000Z" work-start="20190311T190000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <predecessors>
+        <predecessor id="1" predecessor-id="34" type="FS"/>
+        <predecessor id="1" predecessor-id="23" type="FS"/>
+      </predecessors>
+      <task id="41" name="Investigaci&#xF3;n sobre requerimientos est&#xE9;ticos y funcionales" note="" work="28800" start="20190308T220000Z" end="20190313T210000Z" work-start="20190311T190000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="42" name="Dise&#xF1;o del gabinete" note="" work="28800" start="20190313T210000Z" end="20190318T200000Z" work-start="20190313T210000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="41" type="FS"/>
+          <predecessor id="1" predecessor-id="39" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="43" name="Fabricaci&#xF3;n del gabinete" note="" work="28800" start="20190318T200000Z" end="20190320T220000Z" work-start="20190318T200000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="42" type="FS"/>
+          <predecessor id="1" predecessor-id="1" type="FS"/>
+        </predecessors>
+      </task>
+    </task>
+    <task id="44" name="Presentaci&#xF3;n del proyecto" note="" work="468000" start="20190320T220000Z" end="20190510T210000Z" work-start="20190321T190000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <predecessors>
+        <predecessor id="1" predecessor-id="40" type="FS"/>
+        <predecessor id="1" predecessor-id="34" type="FS"/>
+        <predecessor id="1" predecessor-id="23" type="FS"/>
+        <predecessor id="1" predecessor-id="10" type="FS"/>
+        <predecessor id="1" predecessor-id="1" type="FS"/>
+      </predecessors>
+      <task id="45" name="Preparaci&#xF3;n del informe final" note="" work="162000" start="20190320T220000Z" end="20190410T220000Z" work-start="20190321T190000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="46" name="Escritura del manual de usuario" note="" work="162000" start="20190410T220000Z" end="20190501T220000Z" work-start="20190411T190000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="45" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="47" name="Escritura informe de avance" note="" work="72000" start="20190501T220000Z" end="20190510T210000Z" work-start="20190502T190000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="46" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="48" name="Preparaci&#xF3;n de diapositivas para exposicion" note="" work="72000" start="20190410T220000Z" end="20190419T210000Z" work-start="20190411T190000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="45" type="FS"/>
+          <predecessor id="1" predecessor-id="47" type="FS"/>
+        </predecessors>
+      </task>
+    </task>
+  </tasks>
+  <resource-groups/>
+  <resources/>
+  <allocations/>
+</project>

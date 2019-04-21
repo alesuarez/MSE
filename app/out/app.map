@@ -52,19 +52,133 @@ Common symbol       size              file
 
 dht11_timeout       0x4               app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_dht11.o
 dht11_timeout_max   0x4               app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_dht11.o
-actualElevatorFsmState
-                    0x1               app/out/app/src/elevator_fsm.o
-floorOneKey         0x20              app/out/app/src/app.o
-floorTwoKey         0x20              app/out/app/src/app.o
+tec3Key             0x20              app/out/app/src/app.o
+tec1Key             0x20              app/out/app/src/app.o
+tec2Key             0x20              app/out/app/src/app.o
 SystemCoreClock     0x4               app/out/libs/lpc_open/lpc_chip_43xx/src/chip_18xx_43xx.o
-lowLevelKey         0x20              app/out/app/src/app.o
+tec4Key             0x20              app/out/app/src/app.o
 pressedKey          0x1               app/out/app/src/app.o
+actualDoorFsmState  0x1               app/out/app/src/door_fsm.o
 g_pUsbApi           0x4               app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
 tickRateMS          0x8               app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
-motorKey            0x20              app/out/app/src/app.o
 
 Discarded input sections
 
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .group         0x0000000000000000        0xc app/out/app/src/door_fsm.o
+ .text          0x0000000000000000        0x0 app/out/app/src/door_fsm.o
+ .data          0x0000000000000000        0x0 app/out/app/src/door_fsm.o
+ .bss           0x0000000000000000        0x0 app/out/app/src/door_fsm.o
  .group         0x0000000000000000        0xc app/out/app/src/uart_service.o
  .group         0x0000000000000000        0xc app/out/app/src/uart_service.o
  .group         0x0000000000000000        0xc app/out/app/src/uart_service.o
@@ -180,6 +294,118 @@ Discarded input sections
  .text          0x0000000000000000        0x0 app/out/app/src/uart_service.o
  .data          0x0000000000000000        0x0 app/out/app/src/uart_service.o
  .bss           0x0000000000000000        0x0 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000      0xa6c app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x22 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x56 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x51 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0xef app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x6a app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000      0x1df app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x10 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x22 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x73 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x22 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x1c app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x22 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0xdf app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000     0x102d app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000      0x11f app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000      0x2c3 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000      0x112 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x11 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x2a app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x16 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000      0x2e6 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x82 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000      0x13d app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000      0x198 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x34 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x58 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000      0x236 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000      0x572 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x16 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000      0x18a app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x88 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000      0x1b9 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000      0x1da app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x40 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x1c app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x2e app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x2e app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x22 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000      0x201 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0xe0 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000      0x34c app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0xdc app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0xc4 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x8f app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x94 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0xb8 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x4c app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x16 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000      0x328 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x3a app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0xd0 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x18 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x22 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x40 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x5e app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x18 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x35 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x34 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x16 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x97 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000      0x34d app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0xf6 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x10 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x58 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x1f app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x43 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x20 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000      0x18e app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x10 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0xb6 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x16 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000      0x129 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x20 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0xee app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x1c app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x10 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x10 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x10 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x10 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x1c app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x10 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x10 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x40 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x10 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x10 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x16 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000      0x26c app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x5e app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x12 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0xfa app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0xee app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000      0x69a app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000      0x272 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x10 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x16 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x40 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x70 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x70 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x10 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x22 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x16 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x10 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x10 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x88 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x10 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x16 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x10 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x7c app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x64 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000      0x1ec app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000000000       0x10 app/out/app/src/uart_service.o
  .group         0x0000000000000000        0xc app/out/app/src/key_service.o
  .group         0x0000000000000000        0xc app/out/app/src/key_service.o
  .group         0x0000000000000000        0xc app/out/app/src/key_service.o
@@ -409,235 +635,6 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x64 app/out/app/src/key_service.o
  .debug_macro   0x0000000000000000      0x1ec app/out/app/src/key_service.o
  .debug_macro   0x0000000000000000       0x10 app/out/app/src/key_service.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .group         0x0000000000000000        0xc app/out/app/src/elevator_fsm.o
- .text          0x0000000000000000        0x0 app/out/app/src/elevator_fsm.o
- .data          0x0000000000000000        0x0 app/out/app/src/elevator_fsm.o
- .bss           0x0000000000000000        0x0 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000      0xa6c app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x22 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x56 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x51 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0xef app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x6a app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000      0x1df app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x10 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x22 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x73 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x22 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x1c app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x22 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0xdf app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000     0x102d app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000      0x11f app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000      0x2c3 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000      0x112 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x11 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x2a app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x16 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000      0x2e6 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x82 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000      0x13d app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000      0x198 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x34 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x58 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000      0x236 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000      0x572 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x16 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000      0x18a app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x88 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000      0x1b9 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000      0x1da app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x40 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x1c app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x2e app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x2e app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x22 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000      0x201 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0xe0 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000      0x34c app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0xdc app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0xc4 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x8f app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x94 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0xb8 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x4c app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x16 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000      0x328 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x3a app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0xd0 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x18 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x22 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x40 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x5e app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x18 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x35 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x34 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x16 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x97 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000      0x34d app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0xf6 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x10 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x58 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x1f app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x43 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x20 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000      0x18e app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x10 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0xb6 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x16 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000      0x129 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x20 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0xee app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x1c app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x10 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x10 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x10 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x10 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x1c app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x10 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x10 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x40 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x10 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x10 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x16 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000      0x26c app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x5e app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x12 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0xfa app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0xee app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000      0x69a app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000      0x272 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x10 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x16 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x40 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x70 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x70 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x10 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x22 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x16 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x10 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x10 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x88 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x10 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x16 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x10 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x7c app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x64 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000      0x1ec app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000000000       0x10 app/out/app/src/elevator_fsm.o
  .group         0x0000000000000000        0xc app/out/app/src/led_service.o
  .group         0x0000000000000000        0xc app/out/app/src/led_service.o
  .group         0x0000000000000000        0xc app/out/app/src/led_service.o
@@ -866,7 +863,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x64 app/out/app/src/led_service.o
  .debug_macro   0x0000000000000000      0x1ec app/out/app/src/led_service.o
  .debug_macro   0x0000000000000000       0x10 app/out/app/src/led_service.o
- .debug_macro   0x0000000000000000       0x1c app/out/app/src/led_service.o
+ .debug_macro   0x0000000000000000       0x10 app/out/app/src/led_service.o
  .group         0x0000000000000000        0xc app/out/app/src/app.o
  .group         0x0000000000000000        0xc app/out/app/src/app.o
  .group         0x0000000000000000        0xc app/out/app/src/app.o
@@ -1096,8 +1093,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x64 app/out/app/src/app.o
  .debug_macro   0x0000000000000000      0x1ec app/out/app/src/app.o
  .debug_macro   0x0000000000000000       0x10 app/out/app/src/app.o
- .debug_macro   0x0000000000000000       0x1c app/out/app/src/app.o
- .debug_macro   0x0000000000000000       0x22 app/out/app/src/app.o
+ .debug_macro   0x0000000000000000       0x10 app/out/app/src/app.o
  .group         0x0000000000000000        0xc app/out/app/src/debounce_fsm.o
  .group         0x0000000000000000        0xc app/out/app/src/debounce_fsm.o
  .group         0x0000000000000000        0xc app/out/app/src/debounce_fsm.o
@@ -1328,7 +1324,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x1ec app/out/app/src/debounce_fsm.o
  .debug_macro   0x0000000000000000       0x10 app/out/app/src/debounce_fsm.o
  .debug_macro   0x0000000000000000       0x22 app/out/app/src/debounce_fsm.o
- .debug_macro   0x0000000000000000       0x1c app/out/app/src/debounce_fsm.o
+ .debug_macro   0x0000000000000000       0x10 app/out/app/src/debounce_fsm.o
  .group         0x0000000000000000        0xc app/out/libs/cmsis_core//src/armv7m_startup.o
  .group         0x0000000000000000        0xc app/out/libs/cmsis_core//src/armv7m_startup.o
  .group         0x0000000000000000        0xc app/out/libs/cmsis_core//src/armv7m_startup.o
@@ -14017,9 +14013,9 @@ RamAHB_ETB16     0x000000002000c000 0x0000000000004000 xrw
 Linker script and memory map
 
 START GROUP
+LOAD app/out/app/src/door_fsm.o
 LOAD app/out/app/src/uart_service.o
 LOAD app/out/app/src/key_service.o
-LOAD app/out/app/src/elevator_fsm.o
 LOAD app/out/app/src/led_service.o
 LOAD app/out/app/src/app.o
 LOAD app/out/app/src/debounce_fsm.o
@@ -14135,7 +14131,7 @@ END GROUP
  *(.rodata.$Flash2*)
  *(.rodata.$MFlashB512*)
 
-.text           0x000000001a000000     0x1e58
+.text           0x000000001a000000     0x1f70
  FILL mask 0xff
                 0x000000001a000000                __vectors_start__ = ABSOLUTE (.)
  *(.isr_vector)
@@ -14148,25 +14144,25 @@ END GROUP
                 0x000000001a000114                . = ALIGN (0x4)
                 0x000000001a000114                __section_table_start = .
                 0x000000001a000114                __data_section_table = .
-                0x000000001a000114        0x4 LONG 0x1a001e64 LOADADDR (.data)
+                0x000000001a000114        0x4 LONG 0x1a001f7c LOADADDR (.data)
                 0x000000001a000118        0x4 LONG 0x10000000 ADDR (.data)
-                0x000000001a00011c        0x4 LONG 0x90 SIZEOF (.data)
-                0x000000001a000120        0x4 LONG 0x1a001e64 LOADADDR (.data_RAM2)
+                0x000000001a00011c        0x4 LONG 0x94 SIZEOF (.data)
+                0x000000001a000120        0x4 LONG 0x1a001f7c LOADADDR (.data_RAM2)
                 0x000000001a000124        0x4 LONG 0x10080000 ADDR (.data_RAM2)
                 0x000000001a000128        0x4 LONG 0x0 SIZEOF (.data_RAM2)
-                0x000000001a00012c        0x4 LONG 0x1a001e64 LOADADDR (.data_RAM3)
+                0x000000001a00012c        0x4 LONG 0x1a001f7c LOADADDR (.data_RAM3)
                 0x000000001a000130        0x4 LONG 0x20000000 ADDR (.data_RAM3)
                 0x000000001a000134        0x4 LONG 0x0 SIZEOF (.data_RAM3)
-                0x000000001a000138        0x4 LONG 0x1a001e64 LOADADDR (.data_RAM4)
+                0x000000001a000138        0x4 LONG 0x1a001f7c LOADADDR (.data_RAM4)
                 0x000000001a00013c        0x4 LONG 0x20008000 ADDR (.data_RAM4)
                 0x000000001a000140        0x4 LONG 0x0 SIZEOF (.data_RAM4)
-                0x000000001a000144        0x4 LONG 0x1a001e64 LOADADDR (.data_RAM5)
+                0x000000001a000144        0x4 LONG 0x1a001f7c LOADADDR (.data_RAM5)
                 0x000000001a000148        0x4 LONG 0x2000c000 ADDR (.data_RAM5)
                 0x000000001a00014c        0x4 LONG 0x0 SIZEOF (.data_RAM5)
                 0x000000001a000150                __data_section_table_end = .
                 0x000000001a000150                __bss_section_table = .
-                0x000000001a000150        0x4 LONG 0x10000090 ADDR (.bss)
-                0x000000001a000154        0x4 LONG 0xcc SIZEOF (.bss)
+                0x000000001a000150        0x4 LONG 0x10000098 ADDR (.bss)
+                0x000000001a000154        0x4 LONG 0xbc SIZEOF (.bss)
                 0x000000001a000158        0x4 LONG 0x10080000 ADDR (.bss_RAM2)
                 0x000000001a00015c        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
                 0x000000001a000160        0x4 LONG 0x20000000 ADDR (.bss_RAM3)
@@ -14244,323 +14240,325 @@ END GROUP
                 0x000000001a000300                PROVIDE (__CRP_WORD_END__ = .)
                 0x0000000000000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
  *(.text*)
- .text.printElevatorStatus
-                0x000000001a000300       0x10 app/out/app/src/uart_service.o
-                0x000000001a000300                printElevatorStatus
- .text.isPress  0x000000001a000310        0xe app/out/app/src/key_service.o
-                0x000000001a000310                isPress
+ .text.initDoorFsm
+                0x000000001a000300        0xc app/out/app/src/door_fsm.o
+                0x000000001a000300                initDoorFsm
+ .text.updateDoorFsm
+                0x000000001a00030c       0xf4 app/out/app/src/door_fsm.o
+                0x000000001a00030c                updateDoorFsm
+ .text.updateRgbLedDoor
+                0x000000001a000400       0x10 app/out/app/src/door_fsm.o
+                0x000000001a000400                updateRgbLedDoor
+ .text.printOpeningStatus
+                0x000000001a000410       0x70 app/out/app/src/uart_service.o
+                0x000000001a000410                printOpeningStatus
+ .text.printClosingStatus
+                0x000000001a000480       0x70 app/out/app/src/uart_service.o
+                0x000000001a000480                printClosingStatus
+ .text.isPress  0x000000001a0004f0        0xe app/out/app/src/key_service.o
+                0x000000001a0004f0                isPress
  .text.notPress
-                0x000000001a00031e        0x8 app/out/app/src/key_service.o
-                0x000000001a00031e                notPress
+                0x000000001a0004fe        0x8 app/out/app/src/key_service.o
+                0x000000001a0004fe                notPress
  .text.buttonPressed
-                0x000000001a000326        0xe app/out/app/src/key_service.o
-                0x000000001a000326                buttonPressed
+                0x000000001a000506       0x14 app/out/app/src/key_service.o
+                0x000000001a000506                buttonPressed
  .text.buttonReleased
-                0x000000001a000334        0xa app/out/app/src/key_service.o
-                0x000000001a000334                buttonReleased
- .text.mapKeyToFloor
-                0x000000001a00033e       0x1c app/out/app/src/key_service.o
-                0x000000001a00033e                mapKeyToFloor
- .text.isAcctionKey
-                0x000000001a00035a        0xe app/out/app/src/elevator_fsm.o
- .text.initElevatorFsm
-                0x000000001a000368        0xc app/out/app/src/elevator_fsm.o
-                0x000000001a000368                initElevatorFsm
- .text.updateElevatorFsm
-                0x000000001a000374      0x120 app/out/app/src/elevator_fsm.o
-                0x000000001a000374                updateElevatorFsm
- .text.redOn    0x000000001a000494       0x1c app/out/app/src/led_service.o
- .text.yellowOn
-                0x000000001a0004b0       0x1c app/out/app/src/led_service.o
- .text.greenOn  0x000000001a0004cc       0x1c app/out/app/src/led_service.o
- .text.error    0x000000001a0004e8       0x24 app/out/app/src/led_service.o
+                0x000000001a00051a       0x14 app/out/app/src/key_service.o
+                0x000000001a00051a                buttonReleased
+ .text.ledOneOn
+                0x000000001a00052e       0x2c app/out/app/src/led_service.o
+ .text.ledTwoOn
+                0x000000001a00055a       0x2c app/out/app/src/led_service.o
+ .text.ledThreeOn
+                0x000000001a000586       0x2c app/out/app/src/led_service.o
  .text.rgbGreenLed
-                0x000000001a00050c       0x1c app/out/app/src/led_service.o
- .text.rgbBlueLed
-                0x000000001a000528       0x1c app/out/app/src/led_service.o
- .text.rgbRedLed
-                0x000000001a000544       0x1c app/out/app/src/led_service.o
- .text.actualFloorLedIndicator
-                0x000000001a000560       0x24 app/out/app/src/led_service.o
-                0x000000001a000560                actualFloorLedIndicator
- .text.motorStateIndicator
-                0x000000001a000584       0x2c app/out/app/src/led_service.o
-                0x000000001a000584                motorStateIndicator
- .text.main     0x000000001a0005b0       0xa0 app/out/app/src/app.o
-                0x000000001a0005b0                main
+                0x000000001a0005b2       0x34 app/out/app/src/led_service.o
+ .text.ledsOff  0x000000001a0005e6       0x2c app/out/app/src/led_service.o
+ .text.rgbRedLedOn
+                0x000000001a000612        0xc app/out/app/src/led_service.o
+ .text.rgbRedLedOff
+                0x000000001a00061e        0xc app/out/app/src/led_service.o
+ .text.actualDoorLedIndicator
+                0x000000001a00062a       0x2e app/out/app/src/led_service.o
+                0x000000001a00062a                actualDoorLedIndicator
+ .text.rgbRedStatus
+                0x000000001a000658       0x28 app/out/app/src/led_service.o
+                0x000000001a000658                rgbRedStatus
+ .text.main     0x000000001a000680       0xbc app/out/app/src/app.o
+                0x000000001a000680                main
  .text.initDebounceFsm
-                0x000000001a000650        0x8 app/out/app/src/debounce_fsm.o
-                0x000000001a000650                initDebounceFsm
+                0x000000001a00073c        0x8 app/out/app/src/debounce_fsm.o
+                0x000000001a00073c                initDebounceFsm
  .text.updateDebounceFsm
-                0x000000001a000658       0x76 app/out/app/src/debounce_fsm.o
-                0x000000001a000658                updateDebounceFsm
- *fill*         0x000000001a0006ce        0x2 ff
+                0x000000001a000744       0x76 app/out/app/src/debounce_fsm.o
+                0x000000001a000744                updateDebounceFsm
+ *fill*         0x000000001a0007ba        0x2 ff
  .text.Reset_Handler
-                0x000000001a0006d0       0x84 app/out/libs/cmsis_core//src/armv7m_startup.o
-                0x000000001a0006d0                Reset_Handler
- .text._init    0x000000001a000754        0x2 app/out/libs/cmsis_core//src/armv7m_startup.o
-                0x000000001a000754                _init
- *fill*         0x000000001a000756        0x2 ff
+                0x000000001a0007bc       0x84 app/out/libs/cmsis_core//src/armv7m_startup.o
+                0x000000001a0007bc                Reset_Handler
+ .text._init    0x000000001a000840        0x2 app/out/libs/cmsis_core//src/armv7m_startup.o
+                0x000000001a000840                _init
+ *fill*         0x000000001a000842        0x2 ff
  .text.Board_Debug_Init
-                0x000000001a000758       0x24 app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board.o
-                0x000000001a000758                Board_Debug_Init
+                0x000000001a000844       0x24 app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board.o
+                0x000000001a000844                Board_Debug_Init
  .text.__stdio_init
-                0x000000001a00077c        0x8 app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board.o
-                0x000000001a00077c                __stdio_init
+                0x000000001a000868        0x8 app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board.o
+                0x000000001a000868                __stdio_init
  .text.Board_SetupMuxing
-                0x000000001a000784       0x38 app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board_sysinit.o
-                0x000000001a000784                Board_SetupMuxing
+                0x000000001a000870       0x38 app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board_sysinit.o
+                0x000000001a000870                Board_SetupMuxing
  .text.Board_SetupClocking
-                0x000000001a0007bc       0x6c app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board_sysinit.o
-                0x000000001a0007bc                Board_SetupClocking
+                0x000000001a0008a8       0x6c app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board_sysinit.o
+                0x000000001a0008a8                Board_SetupClocking
  .text.Board_SystemInit
-                0x000000001a000828        0xc app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board_sysinit.o
-                0x000000001a000828                Board_SystemInit
+                0x000000001a000914        0xc app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board_sysinit.o
+                0x000000001a000914                Board_SystemInit
  .text.Chip_UART_GetIndex
-                0x000000001a000834       0x2c app/out/libs/lpc_open/lpc_chip_43xx/src/uart_18xx_43xx.o
+                0x000000001a000920       0x2c app/out/libs/lpc_open/lpc_chip_43xx/src/uart_18xx_43xx.o
  .text.Chip_UART_Init
-                0x000000001a000860       0x54 app/out/libs/lpc_open/lpc_chip_43xx/src/uart_18xx_43xx.o
-                0x000000001a000860                Chip_UART_Init
+                0x000000001a00094c       0x54 app/out/libs/lpc_open/lpc_chip_43xx/src/uart_18xx_43xx.o
+                0x000000001a00094c                Chip_UART_Init
  .text.Chip_UART_SetBaud
-                0x000000001a0008b4       0x40 app/out/libs/lpc_open/lpc_chip_43xx/src/uart_18xx_43xx.o
-                0x000000001a0008b4                Chip_UART_SetBaud
+                0x000000001a0009a0       0x40 app/out/libs/lpc_open/lpc_chip_43xx/src/uart_18xx_43xx.o
+                0x000000001a0009a0                Chip_UART_SetBaud
  .text.Chip_UART_SetBaudFDR
-                0x000000001a0008f4       0xe8 app/out/libs/lpc_open/lpc_chip_43xx/src/uart_18xx_43xx.o
-                0x000000001a0008f4                Chip_UART_SetBaudFDR
+                0x000000001a0009e0       0xe8 app/out/libs/lpc_open/lpc_chip_43xx/src/uart_18xx_43xx.o
+                0x000000001a0009e0                Chip_UART_SetBaudFDR
  .text.pll_calc_divs
-                0x000000001a0009dc       0xa4 app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a000ac8       0xa4 app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
  .text.pll_get_frac
-                0x000000001a000a80      0x10c app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a000b6c      0x10c app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
  .text.Chip_Clock_FindBaseClock
-                0x000000001a000b8c       0x4c app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a000c78       0x4c app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
  .text.Chip_Clock_EnableCrystal
-                0x000000001a000bd8       0x4c app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
-                0x000000001a000bd8                Chip_Clock_EnableCrystal
+                0x000000001a000cc4       0x4c app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a000cc4                Chip_Clock_EnableCrystal
  .text.Chip_Clock_GetDividerSource
-                0x000000001a000c24       0x1c app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
-                0x000000001a000c24                Chip_Clock_GetDividerSource
+                0x000000001a000d10       0x1c app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a000d10                Chip_Clock_GetDividerSource
  .text.Chip_Clock_GetDividerDivisor
-                0x000000001a000c40       0x1c app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
-                0x000000001a000c40                Chip_Clock_GetDividerDivisor
+                0x000000001a000d2c       0x1c app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a000d2c                Chip_Clock_GetDividerDivisor
  .text.Chip_Clock_GetClockInputHz
-                0x000000001a000c5c       0xb8 app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
-                0x000000001a000c5c                Chip_Clock_GetClockInputHz
+                0x000000001a000d48       0xb8 app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a000d48                Chip_Clock_GetClockInputHz
  .text.Chip_Clock_CalcMainPLLValue
-                0x000000001a000d14       0x80 app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
-                0x000000001a000d14                Chip_Clock_CalcMainPLLValue
+                0x000000001a000e00       0x80 app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a000e00                Chip_Clock_CalcMainPLLValue
  .text.Chip_Clock_GetMainPLLHz
-                0x000000001a000d94       0x6c app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
-                0x000000001a000d94                Chip_Clock_GetMainPLLHz
+                0x000000001a000e80       0x6c app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a000e80                Chip_Clock_GetMainPLLHz
  .text.Chip_Clock_GetDivRate
-                0x000000001a000e00       0x22 app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
- *fill*         0x000000001a000e22        0x2 ff
+                0x000000001a000eec       0x22 app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
+ *fill*         0x000000001a000f0e        0x2 ff
  .text.Chip_Clock_SetBaseClock
-                0x000000001a000e24       0x58 app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
-                0x000000001a000e24                Chip_Clock_SetBaseClock
+                0x000000001a000f10       0x58 app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a000f10                Chip_Clock_SetBaseClock
  .text.Chip_Clock_GetBaseClock
-                0x000000001a000e7c       0x26 app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
-                0x000000001a000e7c                Chip_Clock_GetBaseClock
+                0x000000001a000f68       0x26 app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a000f68                Chip_Clock_GetBaseClock
  .text.Chip_Clock_GetBaseClocktHz
-                0x000000001a000ea2        0xc app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
-                0x000000001a000ea2                Chip_Clock_GetBaseClocktHz
- *fill*         0x000000001a000eae        0x2 ff
+                0x000000001a000f8e        0xc app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a000f8e                Chip_Clock_GetBaseClocktHz
+ *fill*         0x000000001a000f9a        0x2 ff
  .text.Chip_Clock_EnableOpts
-                0x000000001a000eb0       0x3c app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
-                0x000000001a000eb0                Chip_Clock_EnableOpts
+                0x000000001a000f9c       0x3c app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a000f9c                Chip_Clock_EnableOpts
  .text.Chip_Clock_GetRate
-                0x000000001a000eec       0x4c app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
-                0x000000001a000eec                Chip_Clock_GetRate
+                0x000000001a000fd8       0x4c app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a000fd8                Chip_Clock_GetRate
  .text.SystemCoreClockUpdate
-                0x000000001a000f38       0x14 app/out/libs/lpc_open/lpc_chip_43xx/src/chip_18xx_43xx.o
-                0x000000001a000f38                SystemCoreClockUpdate
+                0x000000001a001024       0x14 app/out/libs/lpc_open/lpc_chip_43xx/src/chip_18xx_43xx.o
+                0x000000001a001024                SystemCoreClockUpdate
  .text.Chip_GPIO_Init
-                0x000000001a000f4c        0x2 app/out/libs/lpc_open/lpc_chip_43xx/src/gpio_18xx_43xx.o
-                0x000000001a000f4c                Chip_GPIO_Init
- *fill*         0x000000001a000f4e        0x2 ff
+                0x000000001a001038        0x2 app/out/libs/lpc_open/lpc_chip_43xx/src/gpio_18xx_43xx.o
+                0x000000001a001038                Chip_GPIO_Init
+ *fill*         0x000000001a00103a        0x2 ff
  .text.Chip_SetupCoreClock
-                0x000000001a000f50      0x154 app/out/libs/lpc_open/lpc_chip_43xx/src/sysinit_18xx_43xx.o
-                0x000000001a000f50                Chip_SetupCoreClock
+                0x000000001a00103c      0x154 app/out/libs/lpc_open/lpc_chip_43xx/src/sysinit_18xx_43xx.o
+                0x000000001a00103c                Chip_SetupCoreClock
  .text.SystemInit
-                0x000000001a0010a4       0x34 app/out/libs/lpc_open/lpc_startup/src/sysinit.o
-                0x000000001a0010a4                SystemInit
+                0x000000001a001190       0x34 app/out/libs/lpc_open/lpc_startup/src/sysinit.o
+                0x000000001a001190                SystemInit
  .text.cyclesCounterInit
-                0x000000001a0010d8       0x1c app/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
-                0x000000001a0010d8                cyclesCounterInit
+                0x000000001a0011c4       0x1c app/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
+                0x000000001a0011c4                cyclesCounterInit
  .text.uartTxReady
-                0x000000001a0010f4       0x18 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
-                0x000000001a0010f4                uartTxReady
+                0x000000001a0011e0       0x18 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
+                0x000000001a0011e0                uartTxReady
  .text.uartTxWrite
-                0x000000001a00110c       0x14 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
-                0x000000001a00110c                uartTxWrite
+                0x000000001a0011f8       0x14 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
+                0x000000001a0011f8                uartTxWrite
  .text.uartInit
-                0x000000001a001120       0x7c app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
-                0x000000001a001120                uartInit
+                0x000000001a00120c       0x7c app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
+                0x000000001a00120c                uartInit
  .text.uartWriteByte
-                0x000000001a00119c       0x1a app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
-                0x000000001a00119c                uartWriteByte
+                0x000000001a001288       0x1a app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
+                0x000000001a001288                uartWriteByte
  .text.uartWriteString
-                0x000000001a0011b6       0x18 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
-                0x000000001a0011b6                uartWriteString
- *fill*         0x000000001a0011ce        0x2 ff
+                0x000000001a0012a2       0x18 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
+                0x000000001a0012a2                uartWriteString
+ *fill*         0x000000001a0012ba        0x2 ff
  .text.tickRead
-                0x000000001a0011d0        0xc app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
-                0x000000001a0011d0                tickRead
+                0x000000001a0012bc        0xc app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
+                0x000000001a0012bc                tickRead
  .text.tickPowerSet
-                0x000000001a0011dc       0x18 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
-                0x000000001a0011dc                tickPowerSet
+                0x000000001a0012c8       0x18 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
+                0x000000001a0012c8                tickPowerSet
  .text.tickInit
-                0x000000001a0011f4       0x7c app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
-                0x000000001a0011f4                tickInit
+                0x000000001a0012e0       0x7c app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
+                0x000000001a0012e0                tickInit
  .text.SysTick_Handler
-                0x000000001a001270       0x34 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
-                0x000000001a001270                SysTick_Handler
+                0x000000001a00135c       0x34 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
+                0x000000001a00135c                SysTick_Handler
  .text.errorOcurred
-                0x000000001a0012a4        0x2 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_timer.o
+                0x000000001a001390        0x2 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_timer.o
  .text.doNothing
-                0x000000001a0012a6        0x2 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_timer.o
+                0x000000001a001392        0x2 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_timer.o
  .text.TIMER0_IRQHandler
-                0x000000001a0012a8       0x40 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_timer.o
-                0x000000001a0012a8                TIMER0_IRQHandler
+                0x000000001a001394       0x40 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_timer.o
+                0x000000001a001394                TIMER0_IRQHandler
  .text.TIMER1_IRQHandler
-                0x000000001a0012e8       0x40 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_timer.o
-                0x000000001a0012e8                TIMER1_IRQHandler
+                0x000000001a0013d4       0x40 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_timer.o
+                0x000000001a0013d4                TIMER1_IRQHandler
  .text.TIMER2_IRQHandler
-                0x000000001a001328       0x44 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_timer.o
-                0x000000001a001328                TIMER2_IRQHandler
+                0x000000001a001414       0x44 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_timer.o
+                0x000000001a001414                TIMER2_IRQHandler
  .text.TIMER3_IRQHandler
-                0x000000001a00136c       0x44 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_timer.o
-                0x000000001a00136c                TIMER3_IRQHandler
+                0x000000001a001458       0x44 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_timer.o
+                0x000000001a001458                TIMER3_IRQHandler
  .text.gpioObtainPinInit
-                0x000000001a0013b0       0x34 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
+                0x000000001a00149c       0x34 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
  .text.gpioInit
-                0x000000001a0013e4      0x194 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
-                0x000000001a0013e4                gpioInit
+                0x000000001a0014d0      0x194 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
+                0x000000001a0014d0                gpioInit
  .text.gpioWrite
-                0x000000001a001578       0x56 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
-                0x000000001a001578                gpioWrite
+                0x000000001a001664       0x56 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
+                0x000000001a001664                gpioWrite
  .text.gpioRead
-                0x000000001a0015ce       0x54 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
-                0x000000001a0015ce                gpioRead
- *fill*         0x000000001a001622        0x2 ff
+                0x000000001a0016ba       0x54 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
+                0x000000001a0016ba                gpioRead
+ *fill*         0x000000001a00170e        0x2 ff
  .text.USB0_IRQHandler
-                0x000000001a001624       0x1c app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
-                0x000000001a001624                USB0_IRQHandler
+                0x000000001a001710       0x1c app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
+                0x000000001a001710                USB0_IRQHandler
  .text.boardInit
-                0x000000001a001640       0xf4 app/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
-                0x000000001a001640                boardInit
+                0x000000001a00172c       0xf4 app/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
+                0x000000001a00172c                boardInit
  .text.delayInit
-                0x000000001a001734       0x20 app/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
-                0x000000001a001734                delayInit
+                0x000000001a001820       0x20 app/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
+                0x000000001a001820                delayInit
  .text.delayRead
-                0x000000001a001754       0x42 app/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
-                0x000000001a001754                delayRead
- *fill*         0x000000001a001796        0x2 ff
+                0x000000001a001840       0x42 app/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
+                0x000000001a001840                delayRead
+ *fill*         0x000000001a001882        0x2 ff
  .text.clearInterrupt
-                0x000000001a001798       0x10 app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_ultrasonic_hcsr04.o
+                0x000000001a001884       0x10 app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_ultrasonic_hcsr04.o
  .text.serveInterrupt
-                0x000000001a0017a8       0x5c app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_ultrasonic_hcsr04.o
+                0x000000001a001894       0x5c app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_ultrasonic_hcsr04.o
  .text.GPIO0_IRQHandler
-                0x000000001a001804        0xa app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_ultrasonic_hcsr04.o
-                0x000000001a001804                GPIO0_IRQHandler
+                0x000000001a0018f0        0xa app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_ultrasonic_hcsr04.o
+                0x000000001a0018f0                GPIO0_IRQHandler
  .text.GPIO1_IRQHandler
-                0x000000001a00180e        0xa app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_ultrasonic_hcsr04.o
-                0x000000001a00180e                GPIO1_IRQHandler
+                0x000000001a0018fa        0xa app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_ultrasonic_hcsr04.o
+                0x000000001a0018fa                GPIO1_IRQHandler
  .text.GPIO2_IRQHandler
-                0x000000001a001818        0xa app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_ultrasonic_hcsr04.o
-                0x000000001a001818                GPIO2_IRQHandler
- *fill*         0x000000001a001822        0x2 ff
- .text          0x000000001a001824       0x30 /home/alejandro/CIAA/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_aeabi_uldivmod.o)
-                0x000000001a001824                __aeabi_uldivmod
- .text          0x000000001a001854      0x2cc /home/alejandro/CIAA/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_udivmoddi4.o)
-                0x000000001a001854                __udivmoddi4
- .text          0x000000001a001b20        0x4 /home/alejandro/CIAA/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_dvmd_tls.o)
-                0x000000001a001b20                __aeabi_ldiv0
-                0x000000001a001b20                __aeabi_idiv0
+                0x000000001a001904        0xa app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_ultrasonic_hcsr04.o
+                0x000000001a001904                GPIO2_IRQHandler
+ *fill*         0x000000001a00190e        0x2 ff
+ .text          0x000000001a001910       0x30 /home/alejandro/CIAA/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_aeabi_uldivmod.o)
+                0x000000001a001910                __aeabi_uldivmod
+ .text          0x000000001a001940      0x2cc /home/alejandro/CIAA/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_udivmoddi4.o)
+                0x000000001a001940                __udivmoddi4
+ .text          0x000000001a001c0c        0x4 /home/alejandro/CIAA/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_dvmd_tls.o)
+                0x000000001a001c0c                __aeabi_ldiv0
+                0x000000001a001c0c                __aeabi_idiv0
  .text.__libc_init_array
-                0x000000001a001b24       0x48 /home/alejandro/CIAA/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-init.o)
-                0x000000001a001b24                __libc_init_array
- .text.memset   0x000000001a001b6c       0x10 /home/alejandro/CIAA/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-memset.o)
-                0x000000001a001b6c                memset
+                0x000000001a001c10       0x48 /home/alejandro/CIAA/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-init.o)
+                0x000000001a001c10                __libc_init_array
+ .text.memset   0x000000001a001c58       0x10 /home/alejandro/CIAA/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-memset.o)
+                0x000000001a001c58                memset
  *(.rodata .rodata.* .constdata .constdata.*)
- .rodata.printElevatorStatus.str1.4
-                0x000000001a001b7c        0x7 app/out/app/src/uart_service.o
- *fill*         0x000000001a001b83        0x1 ff
+ .rodata        0x000000001a001c68       0x31 app/out/app/src/uart_service.o
+ *fill*         0x000000001a001c99        0x3 ff
  .rodata.ExtRateIn
-                0x000000001a001b84        0x4 app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board.o
-                0x000000001a001b84                ExtRateIn
+                0x000000001a001c9c        0x4 app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board.o
+                0x000000001a001c9c                ExtRateIn
  .rodata.OscRateIn
-                0x000000001a001b88        0x4 app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board.o
-                0x000000001a001b88                OscRateIn
+                0x000000001a001ca0        0x4 app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board.o
+                0x000000001a001ca0                OscRateIn
  .rodata.InitClkStates
-                0x000000001a001b8c        0x4 app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board_sysinit.o
+                0x000000001a001ca4        0x4 app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board_sysinit.o
  .rodata.pinmuxing
-                0x000000001a001b90       0x74 app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board_sysinit.o
+                0x000000001a001ca8       0x74 app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board_sysinit.o
  .rodata.UART_BClock
-                0x000000001a001c04        0x8 app/out/libs/lpc_open/lpc_chip_43xx/src/uart_18xx_43xx.o
+                0x000000001a001d1c        0x8 app/out/libs/lpc_open/lpc_chip_43xx/src/uart_18xx_43xx.o
  .rodata.UART_PClock
-                0x000000001a001c0c        0x8 app/out/libs/lpc_open/lpc_chip_43xx/src/uart_18xx_43xx.o
- .rodata        0x000000001a001c14        0x4 app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a001d24        0x8 app/out/libs/lpc_open/lpc_chip_43xx/src/uart_18xx_43xx.o
+ .rodata        0x000000001a001d2c        0x4 app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
  .rodata.Chip_Clock_SetDivider.str1.4
-                0x000000001a001c18        0x8 app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a001d30        0x8 app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
                                           0x6 (size before relaxing)
  .rodata.periph_to_base
-                0x000000001a001c20       0x6c app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a001d38       0x6c app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
  .rodata.InitClkStates
-                0x000000001a001c8c       0x48 app/out/libs/lpc_open/lpc_chip_43xx/src/sysinit_18xx_43xx.o
+                0x000000001a001da4       0x48 app/out/libs/lpc_open/lpc_chip_43xx/src/sysinit_18xx_43xx.o
  .rodata.lpcUarts
-                0x000000001a001cd4       0x48 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
+                0x000000001a001dec       0x48 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
  .rodata.gpioPinsInit
-                0x000000001a001d1c      0x136 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
-                0x000000001a001d1c                gpioPinsInit
- *fill*         0x000000001a001e52        0x2 ff
+                0x000000001a001e34      0x136 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
+                0x000000001a001e34                gpioPinsInit
+ *fill*         0x000000001a001f6a        0x2 ff
  .rodata.ultrasonicSensorsIrqMap
-                0x000000001a001e54        0x3 app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_ultrasonic_hcsr04.o
-                0x000000001a001e58                . = ALIGN (0x4)
- *fill*         0x000000001a001e57        0x1 ff
+                0x000000001a001f6c        0x3 app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_ultrasonic_hcsr04.o
+                0x000000001a001f70                . = ALIGN (0x4)
+ *fill*         0x000000001a001f6f        0x1 ff
 
-.glue_7         0x000000001a001e58        0x0
- .glue_7        0x000000001a001e58        0x0 linker stubs
+.glue_7         0x000000001a001f70        0x0
+ .glue_7        0x000000001a001f70        0x0 linker stubs
 
-.glue_7t        0x000000001a001e58        0x0
- .glue_7t       0x000000001a001e58        0x0 linker stubs
+.glue_7t        0x000000001a001f70        0x0
+ .glue_7t       0x000000001a001f70        0x0 linker stubs
 
-.vfp11_veneer   0x000000001a001e58        0x0
- .vfp11_veneer  0x000000001a001e58        0x0 linker stubs
+.vfp11_veneer   0x000000001a001f70        0x0
+ .vfp11_veneer  0x000000001a001f70        0x0 linker stubs
 
-.v4_bx          0x000000001a001e58        0x0
- .v4_bx         0x000000001a001e58        0x0 linker stubs
+.v4_bx          0x000000001a001f70        0x0
+ .v4_bx         0x000000001a001f70        0x0 linker stubs
 
-.iplt           0x000000001a001e58        0x0
- .iplt          0x000000001a001e58        0x0 app/out/app/src/uart_service.o
-                0x000000001a001e58                . = ALIGN (0x4)
+.iplt           0x000000001a001f70        0x0
+ .iplt          0x000000001a001f70        0x0 app/out/app/src/door_fsm.o
+                0x000000001a001f70                . = ALIGN (0x4)
 
-.preinit_array  0x000000001a001e58        0x0
-                0x000000001a001e58                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x000000001a001f70        0x0
+                0x000000001a001f70                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x000000001a001e58                PROVIDE (__preinit_array_end = .)
+                0x000000001a001f70                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x000000001a001e58        0x4
-                0x000000001a001e58                PROVIDE (__init_array_start = .)
+.init_array     0x000000001a001f70        0x4
+                0x000000001a001f70                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x000000001a001e58        0x4 app/out/libs/sys_newlib//src/system.o
-                0x000000001a001e5c                PROVIDE (__init_array_end = .)
-                0x000000001a001e5c                . = ALIGN (0x4)
+ .init_array    0x000000001a001f70        0x4 app/out/libs/sys_newlib//src/system.o
+                0x000000001a001f74                PROVIDE (__init_array_end = .)
+                0x000000001a001f74                . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x000000001a001e5c                __exidx_start = .
+                0x000000001a001f74                __exidx_start = .
 
-.ARM.exidx      0x000000001a001e5c        0x8
+.ARM.exidx      0x000000001a001f74        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x000000001a001e5c        0x8 /home/alejandro/CIAA/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_udivmoddi4.o)
-                0x000000001a001e64                __exidx_end = .
-                0x000000001a001e64                _etext = .
+ .ARM.exidx     0x000000001a001f74        0x8 /home/alejandro/CIAA/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_udivmoddi4.o)
+                0x000000001a001f7c                __exidx_end = .
+                0x000000001a001f7c                _etext = .
 
-.rel.dyn        0x000000001a001e64        0x0
- .rel.iplt      0x000000001a001e64        0x0 app/out/app/src/uart_service.o
+.rel.dyn        0x000000001a001f7c        0x0
+ .rel.iplt      0x000000001a001f7c        0x0 app/out/app/src/door_fsm.o
 
-.data_RAM2      0x0000000010080000        0x0 load address 0x000000001a001e64
+.data_RAM2      0x0000000010080000        0x0 load address 0x000000001a001f7c
  FILL mask 0xff
  *(.ramfunc.$RAM2)
  *(.ramfunc.$RamLoc40)
@@ -14568,7 +14566,7 @@ END GROUP
  *(.data.$RamLoc40*)
                 0x0000000010080000                . = ALIGN (0x4)
 
-.data_RAM3      0x0000000020000000        0x0 load address 0x000000001a001e64
+.data_RAM3      0x0000000020000000        0x0 load address 0x000000001a001f7c
  FILL mask 0xff
  *(.ramfunc.$RAM3)
  *(.ramfunc.$RamAHB32)
@@ -14576,7 +14574,7 @@ END GROUP
  *(.data.$RamAHB32*)
                 0x0000000020000000                . = ALIGN (0x4)
 
-.data_RAM4      0x0000000020008000        0x0 load address 0x000000001a001e64
+.data_RAM4      0x0000000020008000        0x0 load address 0x000000001a001f7c
  FILL mask 0xff
  *(.ramfunc.$RAM4)
  *(.ramfunc.$RamAHB16)
@@ -14584,7 +14582,7 @@ END GROUP
  *(.data.$RamAHB16*)
                 0x0000000020008000                . = ALIGN (0x4)
 
-.data_RAM5      0x000000002000c000        0x0 load address 0x000000001a001e64
+.data_RAM5      0x000000002000c000        0x0 load address 0x000000001a001f7c
  FILL mask 0xff
  *(.ramfunc.$RAM5)
  *(.ramfunc.$RamAHB_ETB16)
@@ -14598,26 +14596,29 @@ END GROUP
                 0x0000000010000000                . = ALIGN (0x4)
                 0x0000000010000000                _end_uninit_RESERVED = .
 
-.data           0x0000000010000000       0x90 load address 0x000000001a001e64
+.data           0x0000000010000000       0x94 load address 0x000000001a001f7c
  FILL mask 0xff
                 0x0000000010000000                _data = .
  *(vtable)
  *(.ramfunc*)
  *(.data*)
+ .data.ledStatus.13426
+                0x0000000010000000        0x1 app/out/app/src/led_service.o
+ *fill*         0x0000000010000001        0x3 ff
  .data.ClockSpeed
-                0x0000000010000000        0x4 app/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
- .data.DWT_CTRL
                 0x0000000010000004        0x4 app/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
-                0x0000000010000004                DWT_CTRL
+ .data.DWT_CTRL
+                0x0000000010000008        0x4 app/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
+                0x0000000010000008                DWT_CTRL
  .data.timer_dd
-                0x0000000010000008       0x40 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_timer.o
+                0x000000001000000c       0x40 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_timer.o
  .data.ultrasonicSensors
-                0x0000000010000048       0x48 app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_ultrasonic_hcsr04.o
-                0x0000000010000090                . = ALIGN (0x4)
-                0x0000000010000090                _edata = .
+                0x000000001000004c       0x48 app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_ultrasonic_hcsr04.o
+                0x0000000010000094                . = ALIGN (0x4)
+                0x0000000010000094                _edata = .
 
-.igot.plt       0x0000000010000090        0x0 load address 0x000000001a001ef4
- .igot.plt      0x0000000010000090        0x0 app/out/app/src/uart_service.o
+.igot.plt       0x0000000010000094        0x0 load address 0x000000001a002010
+ .igot.plt      0x0000000010000094        0x0 app/out/app/src/door_fsm.o
 
 .bss_RAM2       0x0000000010080000        0x0
  *(.bss.$RAM2*)
@@ -14639,45 +14640,41 @@ END GROUP
  *(.bss.$RamAHB_ETB16*)
                 0x000000002000c000                . = ALIGN (0x4)
 
-.bss            0x0000000010000090       0xcc
-                0x0000000010000090                _bss = .
+.bss            0x0000000010000098       0xbc
+                0x0000000010000098                _bss = .
  *(.bss*)
- .bss.actualFloor.13412
-                0x0000000010000090        0x2 app/out/app/src/elevator_fsm.o
- .bss.requiredFloor.13413
-                0x0000000010000092        0x2 app/out/app/src/elevator_fsm.o
- .bss.stoppedTime.13414
-                0x0000000010000094        0x2 app/out/app/src/elevator_fsm.o
- *fill*         0x0000000010000096        0x2 
+ .bss.closingTime.13406
+                0x0000000010000098        0x2 app/out/app/src/door_fsm.o
+ .bss.openingTime.13405
+                0x000000001000009a        0x2 app/out/app/src/door_fsm.o
  .bss.audio_usb_pll_freq
-                0x0000000010000098        0x8 app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001000009c        0x8 app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
  .bss.callBackFuncParams
-                0x00000000100000a0        0x4 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
- *fill*         0x00000000100000a4        0x4 
+                0x00000000100000a4        0x4 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
  .bss.tickCounter
                 0x00000000100000a8        0x8 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
  .bss.tickHookFunction
                 0x00000000100000b0        0x4 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
  .bss.g_hUsb    0x00000000100000b4        0x4 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
  *(COMMON)
- COMMON         0x00000000100000b8        0x1 app/out/app/src/elevator_fsm.o
-                0x00000000100000b8                actualElevatorFsmState
+ COMMON         0x00000000100000b8        0x1 app/out/app/src/door_fsm.o
+                0x00000000100000b8                actualDoorFsmState
  *fill*         0x00000000100000b9        0x7 
- COMMON         0x00000000100000c0       0x88 app/out/app/src/app.o
-                0x00000000100000c0                floorOneKey
-                0x00000000100000e0                floorTwoKey
-                0x0000000010000100                lowLevelKey
-                0x0000000010000120                pressedKey
-                0x0000000010000128                motorKey
- COMMON         0x0000000010000148        0x4 app/out/libs/lpc_open/lpc_chip_43xx/src/chip_18xx_43xx.o
-                0x0000000010000148                SystemCoreClock
- *fill*         0x000000001000014c        0x4 
- COMMON         0x0000000010000150        0x8 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
-                0x0000000010000150                tickRateMS
- COMMON         0x0000000010000158        0x4 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
-                0x0000000010000158                g_pUsbApi
-                0x000000001000015c                . = ALIGN (0x4)
-                0x000000001000015c                _ebss = .
+ COMMON         0x00000000100000c0       0x81 app/out/app/src/app.o
+                0x00000000100000c0                tec3Key
+                0x00000000100000e0                tec1Key
+                0x0000000010000100                tec2Key
+                0x0000000010000120                tec4Key
+                0x0000000010000140                pressedKey
+ *fill*         0x0000000010000141        0x3 
+ COMMON         0x0000000010000144        0x4 app/out/libs/lpc_open/lpc_chip_43xx/src/chip_18xx_43xx.o
+                0x0000000010000144                SystemCoreClock
+ COMMON         0x0000000010000148        0x8 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
+                0x0000000010000148                tickRateMS
+ COMMON         0x0000000010000150        0x4 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
+                0x0000000010000150                g_pUsbApi
+                0x0000000010000154                . = ALIGN (0x4)
+                0x0000000010000154                _ebss = .
                 [!provide]                        PROVIDE (end = .)
 
 .noinit_RAM2    0x0000000010080000        0x0
@@ -14700,81 +14697,104 @@ END GROUP
  *(.noinit.$RamAHB_ETB16*)
                 0x000000002000c000                . = ALIGN (0x4)
 
-.noinit         0x000000001000015c        0x0
-                0x000000001000015c                _noinit = .
+.noinit         0x0000000010000154        0x0
+                0x0000000010000154                _noinit = .
  *(.noinit*)
-                0x000000001000015c                . = ALIGN (0x4)
-                0x000000001000015c                _end_noinit = .
-                0x000000001000015c                PROVIDE (_pvHeapStart = .)
+                0x0000000010000154                . = ALIGN (0x4)
+                0x0000000010000154                _end_noinit = .
+                0x0000000010000154                PROVIDE (_pvHeapStart = .)
                 0x0000000010008000                PROVIDE (_vStackTop = (__top_RamLoc32 - 0x0))
-                0xffffffff53ff71be                PROVIDE (__valid_user_code_checksum = (0x0 - ((((((_vStackTop + (Reset_Handler + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
+                0xffffffff53ff70d2                PROVIDE (__valid_user_code_checksum = (0x0 - ((((((_vStackTop + (Reset_Handler + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
 OUTPUT(app/out/app.elf elf32-littlearm)
 
-.debug_info     0x0000000000000000    0x2524b
- .debug_info    0x0000000000000000     0x1ed8 app/out/app/src/uart_service.o
- .debug_info    0x0000000000001ed8     0x20e3 app/out/app/src/key_service.o
- .debug_info    0x0000000000003fbb     0x260a app/out/app/src/elevator_fsm.o
- .debug_info    0x00000000000065c5     0x235e app/out/app/src/led_service.o
- .debug_info    0x0000000000008923     0x27d9 app/out/app/src/app.o
- .debug_info    0x000000000000b0fc     0x2177 app/out/app/src/debounce_fsm.o
- .debug_info    0x000000000000d273      0x378 app/out/libs/cmsis_core//src/armv7m_startup.o
- .debug_info    0x000000000000d5eb      0xf43 app/out/libs/sys_newlib//src/system.o
- .debug_info    0x000000000000e52e     0x2130 app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board.o
- .debug_info    0x000000000001065e     0x14c3 app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board_sysinit.o
- .debug_info    0x0000000000011b21     0x164f app/out/libs/lpc_open/lpc_chip_43xx/src/uart_18xx_43xx.o
- .debug_info    0x0000000000013170     0x18ed app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
- .debug_info    0x0000000000014a5d      0xc3d app/out/libs/lpc_open/lpc_chip_43xx/src/chip_18xx_43xx.o
- .debug_info    0x000000000001569a      0x219 app/out/libs/lpc_open/lpc_chip_43xx/src/gpio_18xx_43xx.o
- .debug_info    0x00000000000158b3      0xab0 app/out/libs/lpc_open/lpc_chip_43xx/src/sysinit_18xx_43xx.o
- .debug_info    0x0000000000016363       0x3f app/out/libs/lpc_open/lpc_startup/src/crp.o
- .debug_info    0x00000000000163a2      0xba9 app/out/libs/lpc_open/lpc_startup/src/sysinit.o
- .debug_info    0x0000000000016f4b       0x74 app/out/libs/lpc_open/lpc_startup/src/vendor_interrupt.o
- .debug_info    0x0000000000016fbf      0xec6 app/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
- .debug_info    0x0000000000017e85     0x1d45 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
- .debug_info    0x0000000000019bca     0x14a2 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
- .debug_info    0x000000000001b06c     0x1d42 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_timer.o
- .debug_info    0x000000000001cdae     0x1a90 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
- .debug_info    0x000000000001e83e     0x330e app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
- .debug_info    0x0000000000021b4c      0xdb2 app/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
- .debug_info    0x00000000000228fe      0xb14 app/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
- .debug_info    0x0000000000023412     0x1e39 app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_ultrasonic_hcsr04.o
+.debug_info     0x0000000000000000    0x25335
+ .debug_info    0x0000000000000000     0x25b0 app/out/app/src/door_fsm.o
+ .debug_info    0x00000000000025b0     0x1f38 app/out/app/src/uart_service.o
+ .debug_info    0x00000000000044e8     0x20ba app/out/app/src/key_service.o
+ .debug_info    0x00000000000065a2     0x241c app/out/app/src/led_service.o
+ .debug_info    0x00000000000089be     0x2828 app/out/app/src/app.o
+ .debug_info    0x000000000000b1e6     0x2177 app/out/app/src/debounce_fsm.o
+ .debug_info    0x000000000000d35d      0x378 app/out/libs/cmsis_core//src/armv7m_startup.o
+ .debug_info    0x000000000000d6d5      0xf43 app/out/libs/sys_newlib//src/system.o
+ .debug_info    0x000000000000e618     0x2130 app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board.o
+ .debug_info    0x0000000000010748     0x14c3 app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board_sysinit.o
+ .debug_info    0x0000000000011c0b     0x164f app/out/libs/lpc_open/lpc_chip_43xx/src/uart_18xx_43xx.o
+ .debug_info    0x000000000001325a     0x18ed app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
+ .debug_info    0x0000000000014b47      0xc3d app/out/libs/lpc_open/lpc_chip_43xx/src/chip_18xx_43xx.o
+ .debug_info    0x0000000000015784      0x219 app/out/libs/lpc_open/lpc_chip_43xx/src/gpio_18xx_43xx.o
+ .debug_info    0x000000000001599d      0xab0 app/out/libs/lpc_open/lpc_chip_43xx/src/sysinit_18xx_43xx.o
+ .debug_info    0x000000000001644d       0x3f app/out/libs/lpc_open/lpc_startup/src/crp.o
+ .debug_info    0x000000000001648c      0xba9 app/out/libs/lpc_open/lpc_startup/src/sysinit.o
+ .debug_info    0x0000000000017035       0x74 app/out/libs/lpc_open/lpc_startup/src/vendor_interrupt.o
+ .debug_info    0x00000000000170a9      0xec6 app/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
+ .debug_info    0x0000000000017f6f     0x1d45 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
+ .debug_info    0x0000000000019cb4     0x14a2 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
+ .debug_info    0x000000000001b156     0x1d42 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_timer.o
+ .debug_info    0x000000000001ce98     0x1a90 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
+ .debug_info    0x000000000001e928     0x330e app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
+ .debug_info    0x0000000000021c36      0xdb2 app/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
+ .debug_info    0x00000000000229e8      0xb14 app/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
+ .debug_info    0x00000000000234fc     0x1e39 app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_ultrasonic_hcsr04.o
 
-.debug_abbrev   0x0000000000000000     0x4709
- .debug_abbrev  0x0000000000000000      0x25f app/out/app/src/uart_service.o
- .debug_abbrev  0x000000000000025f      0x260 app/out/app/src/key_service.o
- .debug_abbrev  0x00000000000004bf      0x2e3 app/out/app/src/elevator_fsm.o
- .debug_abbrev  0x00000000000007a2      0x298 app/out/app/src/led_service.o
- .debug_abbrev  0x0000000000000a3a      0x2b1 app/out/app/src/app.o
- .debug_abbrev  0x0000000000000ceb      0x27c app/out/app/src/debounce_fsm.o
- .debug_abbrev  0x0000000000000f67      0x154 app/out/libs/cmsis_core//src/armv7m_startup.o
- .debug_abbrev  0x00000000000010bb      0x2b7 app/out/libs/sys_newlib//src/system.o
- .debug_abbrev  0x0000000000001372      0x47e app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board.o
- .debug_abbrev  0x00000000000017f0      0x2f8 app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board_sysinit.o
- .debug_abbrev  0x0000000000001ae8      0x3b7 app/out/libs/lpc_open/lpc_chip_43xx/src/uart_18xx_43xx.o
- .debug_abbrev  0x0000000000001e9f      0x379 app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
- .debug_abbrev  0x0000000000002218      0x1c3 app/out/libs/lpc_open/lpc_chip_43xx/src/chip_18xx_43xx.o
- .debug_abbrev  0x00000000000023db      0x100 app/out/libs/lpc_open/lpc_chip_43xx/src/gpio_18xx_43xx.o
- .debug_abbrev  0x00000000000024db      0x203 app/out/libs/lpc_open/lpc_chip_43xx/src/sysinit_18xx_43xx.o
- .debug_abbrev  0x00000000000026de       0x36 app/out/libs/lpc_open/lpc_startup/src/crp.o
- .debug_abbrev  0x0000000000002714      0x221 app/out/libs/lpc_open/lpc_startup/src/sysinit.o
- .debug_abbrev  0x0000000000002935       0x74 app/out/libs/lpc_open/lpc_startup/src/vendor_interrupt.o
- .debug_abbrev  0x00000000000029a9      0x284 app/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
- .debug_abbrev  0x0000000000002c2d      0x3e2 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
- .debug_abbrev  0x000000000000300f      0x368 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
- .debug_abbrev  0x0000000000003377      0x3eb app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_timer.o
- .debug_abbrev  0x0000000000003762      0x389 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
- .debug_abbrev  0x0000000000003aeb      0x3d9 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
- .debug_abbrev  0x0000000000003ec4      0x216 app/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
- .debug_abbrev  0x00000000000040da      0x241 app/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
- .debug_abbrev  0x000000000000431b      0x3ee app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_ultrasonic_hcsr04.o
+.debug_abbrev   0x0000000000000000     0x4712
+ .debug_abbrev  0x0000000000000000      0x2c8 app/out/app/src/door_fsm.o
+ .debug_abbrev  0x00000000000002c8      0x270 app/out/app/src/uart_service.o
+ .debug_abbrev  0x0000000000000538      0x260 app/out/app/src/key_service.o
+ .debug_abbrev  0x0000000000000798      0x2b6 app/out/app/src/led_service.o
+ .debug_abbrev  0x0000000000000a4e      0x2a6 app/out/app/src/app.o
+ .debug_abbrev  0x0000000000000cf4      0x27c app/out/app/src/debounce_fsm.o
+ .debug_abbrev  0x0000000000000f70      0x154 app/out/libs/cmsis_core//src/armv7m_startup.o
+ .debug_abbrev  0x00000000000010c4      0x2b7 app/out/libs/sys_newlib//src/system.o
+ .debug_abbrev  0x000000000000137b      0x47e app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board.o
+ .debug_abbrev  0x00000000000017f9      0x2f8 app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board_sysinit.o
+ .debug_abbrev  0x0000000000001af1      0x3b7 app/out/libs/lpc_open/lpc_chip_43xx/src/uart_18xx_43xx.o
+ .debug_abbrev  0x0000000000001ea8      0x379 app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
+ .debug_abbrev  0x0000000000002221      0x1c3 app/out/libs/lpc_open/lpc_chip_43xx/src/chip_18xx_43xx.o
+ .debug_abbrev  0x00000000000023e4      0x100 app/out/libs/lpc_open/lpc_chip_43xx/src/gpio_18xx_43xx.o
+ .debug_abbrev  0x00000000000024e4      0x203 app/out/libs/lpc_open/lpc_chip_43xx/src/sysinit_18xx_43xx.o
+ .debug_abbrev  0x00000000000026e7       0x36 app/out/libs/lpc_open/lpc_startup/src/crp.o
+ .debug_abbrev  0x000000000000271d      0x221 app/out/libs/lpc_open/lpc_startup/src/sysinit.o
+ .debug_abbrev  0x000000000000293e       0x74 app/out/libs/lpc_open/lpc_startup/src/vendor_interrupt.o
+ .debug_abbrev  0x00000000000029b2      0x284 app/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
+ .debug_abbrev  0x0000000000002c36      0x3e2 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
+ .debug_abbrev  0x0000000000003018      0x368 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
+ .debug_abbrev  0x0000000000003380      0x3eb app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_timer.o
+ .debug_abbrev  0x000000000000376b      0x389 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
+ .debug_abbrev  0x0000000000003af4      0x3d9 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
+ .debug_abbrev  0x0000000000003ecd      0x216 app/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
+ .debug_abbrev  0x00000000000040e3      0x241 app/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
+ .debug_abbrev  0x0000000000004324      0x3ee app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_ultrasonic_hcsr04.o
+
+.debug_loc      0x0000000000000000     0x5591
+ .debug_loc     0x0000000000000000       0x4a app/out/app/src/door_fsm.o
+ .debug_loc     0x000000000000004a       0x42 app/out/app/src/uart_service.o
+ .debug_loc     0x000000000000008c       0xe8 app/out/app/src/key_service.o
+ .debug_loc     0x0000000000000174       0xca app/out/app/src/led_service.o
+ .debug_loc     0x000000000000023e       0xec app/out/app/src/debounce_fsm.o
+ .debug_loc     0x000000000000032a      0x206 app/out/libs/cmsis_core//src/armv7m_startup.o
+ .debug_loc     0x0000000000000530      0x586 app/out/libs/sys_newlib//src/system.o
+ .debug_loc     0x0000000000000ab6      0x5b0 app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board.o
+ .debug_loc     0x0000000000001066       0xf5 app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board_sysinit.o
+ .debug_loc     0x000000000000115b      0xd25 app/out/libs/lpc_open/lpc_chip_43xx/src/uart_18xx_43xx.o
+ .debug_loc     0x0000000000001e80     0x123c app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
+ .debug_loc     0x00000000000030bc      0x1b5 app/out/libs/lpc_open/lpc_chip_43xx/src/sysinit_18xx_43xx.o
+ .debug_loc     0x0000000000003271       0x13 app/out/libs/lpc_open/lpc_startup/src/sysinit.o
+ .debug_loc     0x0000000000003284       0x8e app/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
+ .debug_loc     0x0000000000003312      0x7c8 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
+ .debug_loc     0x0000000000003ada      0x173 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
+ .debug_loc     0x0000000000003c4d      0x7a5 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_timer.o
+ .debug_loc     0x00000000000043f2      0x7e4 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
+ .debug_loc     0x0000000000004bd6      0x34f app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
+ .debug_loc     0x0000000000004f25      0x1af app/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
+ .debug_loc     0x00000000000050d4      0x4bd app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_ultrasonic_hcsr04.o
 
 .debug_aranges  0x0000000000000000      0x930
  .debug_aranges
-                0x0000000000000000       0x20 app/out/app/src/uart_service.o
+                0x0000000000000000       0x30 app/out/app/src/door_fsm.o
  .debug_aranges
-                0x0000000000000020       0x40 app/out/app/src/key_service.o
+                0x0000000000000030       0x28 app/out/app/src/uart_service.o
  .debug_aranges
-                0x0000000000000060       0x30 app/out/app/src/elevator_fsm.o
+                0x0000000000000058       0x38 app/out/app/src/key_service.o
  .debug_aranges
                 0x0000000000000090       0x60 app/out/app/src/led_service.o
  .debug_aranges
@@ -14825,9 +14845,9 @@ OUTPUT(app/out/app.elf elf32-littlearm)
                 0x00000000000008c0       0x70 app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_ultrasonic_hcsr04.o
 
 .debug_ranges   0x0000000000000000      0x898
- .debug_ranges  0x0000000000000000       0x10 app/out/app/src/uart_service.o
- .debug_ranges  0x0000000000000010       0x30 app/out/app/src/key_service.o
- .debug_ranges  0x0000000000000040       0x20 app/out/app/src/elevator_fsm.o
+ .debug_ranges  0x0000000000000000       0x20 app/out/app/src/door_fsm.o
+ .debug_ranges  0x0000000000000020       0x18 app/out/app/src/uart_service.o
+ .debug_ranges  0x0000000000000038       0x28 app/out/app/src/key_service.o
  .debug_ranges  0x0000000000000060       0x50 app/out/app/src/led_service.o
  .debug_ranges  0x00000000000000b0       0x10 app/out/app/src/app.o
  .debug_ranges  0x00000000000000c0       0x18 app/out/app/src/debounce_fsm.o
@@ -14852,255 +14872,254 @@ OUTPUT(app/out/app.elf elf32-littlearm)
  .debug_ranges  0x0000000000000800       0x38 app/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
  .debug_ranges  0x0000000000000838       0x60 app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_ultrasonic_hcsr04.o
 
-.debug_macro    0x0000000000000000     0xe19b
- .debug_macro   0x0000000000000000      0x672 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000000672      0xa6c app/out/app/src/uart_service.o
- .debug_macro   0x00000000000010de       0x22 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000001100       0x56 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000001156       0x51 app/out/app/src/uart_service.o
- .debug_macro   0x00000000000011a7       0xef app/out/app/src/uart_service.o
- .debug_macro   0x0000000000001296       0x6a app/out/app/src/uart_service.o
- .debug_macro   0x0000000000001300      0x1df app/out/app/src/uart_service.o
- .debug_macro   0x00000000000014df       0x10 app/out/app/src/uart_service.o
- .debug_macro   0x00000000000014ef       0x22 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000001511       0x73 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000001584       0x22 app/out/app/src/uart_service.o
- .debug_macro   0x00000000000015a6       0x1c app/out/app/src/uart_service.o
- .debug_macro   0x00000000000015c2       0x22 app/out/app/src/uart_service.o
- .debug_macro   0x00000000000015e4       0xdf app/out/app/src/uart_service.o
- .debug_macro   0x00000000000016c3     0x102d app/out/app/src/uart_service.o
- .debug_macro   0x00000000000026f0      0x11f app/out/app/src/uart_service.o
- .debug_macro   0x000000000000280f      0x2c3 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000002ad2      0x112 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000002be4       0x11 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000002bf5       0x2a app/out/app/src/uart_service.o
- .debug_macro   0x0000000000002c1f       0x16 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000002c35      0x2e6 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000002f1b       0x82 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000002f9d      0x13d app/out/app/src/uart_service.o
- .debug_macro   0x00000000000030da      0x198 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000003272       0x34 app/out/app/src/uart_service.o
- .debug_macro   0x00000000000032a6       0x58 app/out/app/src/uart_service.o
- .debug_macro   0x00000000000032fe      0x236 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000003534      0x572 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000003aa6       0x16 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000003abc      0x18a app/out/app/src/uart_service.o
- .debug_macro   0x0000000000003c46       0x88 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000003cce      0x1b9 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000003e87      0x1da app/out/app/src/uart_service.o
- .debug_macro   0x0000000000004061       0x40 app/out/app/src/uart_service.o
- .debug_macro   0x00000000000040a1       0x1c app/out/app/src/uart_service.o
- .debug_macro   0x00000000000040bd       0x2e app/out/app/src/uart_service.o
- .debug_macro   0x00000000000040eb       0x2e app/out/app/src/uart_service.o
- .debug_macro   0x0000000000004119       0x22 app/out/app/src/uart_service.o
- .debug_macro   0x000000000000413b      0x201 app/out/app/src/uart_service.o
- .debug_macro   0x000000000000433c       0xe0 app/out/app/src/uart_service.o
- .debug_macro   0x000000000000441c      0x34c app/out/app/src/uart_service.o
- .debug_macro   0x0000000000004768       0xdc app/out/app/src/uart_service.o
- .debug_macro   0x0000000000004844       0xc4 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000004908       0x8f app/out/app/src/uart_service.o
- .debug_macro   0x0000000000004997       0x94 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000004a2b       0xb8 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000004ae3       0x4c app/out/app/src/uart_service.o
- .debug_macro   0x0000000000004b2f       0x16 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000004b45      0x328 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000004e6d       0x3a app/out/app/src/uart_service.o
- .debug_macro   0x0000000000004ea7       0xd0 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000004f77       0x18 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000004f8f       0x22 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000004fb1       0x40 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000004ff1       0x5e app/out/app/src/uart_service.o
- .debug_macro   0x000000000000504f       0x18 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000005067       0x35 app/out/app/src/uart_service.o
- .debug_macro   0x000000000000509c       0x34 app/out/app/src/uart_service.o
- .debug_macro   0x00000000000050d0       0x16 app/out/app/src/uart_service.o
- .debug_macro   0x00000000000050e6       0x97 app/out/app/src/uart_service.o
- .debug_macro   0x000000000000517d      0x34d app/out/app/src/uart_service.o
- .debug_macro   0x00000000000054ca       0xf6 app/out/app/src/uart_service.o
- .debug_macro   0x00000000000055c0       0x10 app/out/app/src/uart_service.o
- .debug_macro   0x00000000000055d0       0x58 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000005628       0x1f app/out/app/src/uart_service.o
- .debug_macro   0x0000000000005647       0x43 app/out/app/src/uart_service.o
- .debug_macro   0x000000000000568a       0x20 app/out/app/src/uart_service.o
- .debug_macro   0x00000000000056aa      0x18e app/out/app/src/uart_service.o
- .debug_macro   0x0000000000005838       0x10 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000005848       0xb6 app/out/app/src/uart_service.o
- .debug_macro   0x00000000000058fe       0x16 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000005914      0x129 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000005a3d       0x20 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000005a5d       0xee app/out/app/src/uart_service.o
- .debug_macro   0x0000000000005b4b       0x1c app/out/app/src/uart_service.o
- .debug_macro   0x0000000000005b67       0x10 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000005b77       0x10 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000005b87       0x10 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000005b97       0x10 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000005ba7       0x1c app/out/app/src/uart_service.o
- .debug_macro   0x0000000000005bc3       0x10 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000005bd3       0x10 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000005be3       0x40 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000005c23       0x10 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000005c33       0x10 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000005c43       0x16 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000005c59      0x26c app/out/app/src/uart_service.o
- .debug_macro   0x0000000000005ec5       0x5e app/out/app/src/uart_service.o
- .debug_macro   0x0000000000005f23       0x12 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000005f35       0xfa app/out/app/src/uart_service.o
- .debug_macro   0x000000000000602f       0xee app/out/app/src/uart_service.o
- .debug_macro   0x000000000000611d      0x69a app/out/app/src/uart_service.o
- .debug_macro   0x00000000000067b7      0x272 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000006a29       0x10 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000006a39       0x16 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000006a4f       0x40 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000006a8f       0x70 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000006aff       0x70 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000006b6f       0x10 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000006b7f       0x22 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000006ba1       0x16 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000006bb7       0x10 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000006bc7       0x10 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000006bd7       0x88 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000006c5f       0x10 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000006c6f       0x16 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000006c85       0x10 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000006c95       0x7c app/out/app/src/uart_service.o
- .debug_macro   0x0000000000006d11       0x64 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000006d75      0x1ec app/out/app/src/uart_service.o
- .debug_macro   0x0000000000006f61       0x10 app/out/app/src/uart_service.o
- .debug_macro   0x0000000000006f71      0x68c app/out/app/src/key_service.o
- .debug_macro   0x00000000000075fd       0x1c app/out/app/src/key_service.o
- .debug_macro   0x0000000000007619       0x1c app/out/app/src/key_service.o
- .debug_macro   0x0000000000007635      0x6a7 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000007cdc       0x16 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000007cf2       0x22 app/out/app/src/elevator_fsm.o
- .debug_macro   0x0000000000007d14      0x692 app/out/app/src/led_service.o
- .debug_macro   0x00000000000083a6      0x6a3 app/out/app/src/app.o
- .debug_macro   0x0000000000008a49      0x697 app/out/app/src/debounce_fsm.o
- .debug_macro   0x00000000000090e0       0xe6 app/out/libs/cmsis_core//src/armv7m_startup.o
- .debug_macro   0x00000000000091c6      0x168 app/out/libs/sys_newlib//src/system.o
- .debug_macro   0x000000000000932e       0x58 app/out/libs/sys_newlib//src/system.o
- .debug_macro   0x0000000000009386       0x5c app/out/libs/sys_newlib//src/system.o
- .debug_macro   0x00000000000093e2      0x16d app/out/libs/sys_newlib//src/system.o
- .debug_macro   0x000000000000954f       0x57 app/out/libs/sys_newlib//src/system.o
- .debug_macro   0x00000000000095a6       0x10 app/out/libs/sys_newlib//src/system.o
- .debug_macro   0x00000000000095b6       0x35 app/out/libs/sys_newlib//src/system.o
- .debug_macro   0x00000000000095eb       0x10 app/out/libs/sys_newlib//src/system.o
- .debug_macro   0x00000000000095fb      0x241 app/out/libs/sys_newlib//src/system.o
- .debug_macro   0x000000000000983c      0x353 app/out/libs/sys_newlib//src/system.o
- .debug_macro   0x0000000000009b8f      0x105 app/out/libs/sys_newlib//src/system.o
- .debug_macro   0x0000000000009c94       0x16 app/out/libs/sys_newlib//src/system.o
- .debug_macro   0x0000000000009caa      0x43d app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board.o
- .debug_macro   0x000000000000a0e7      0x42b app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board_sysinit.o
- .debug_macro   0x000000000000a512      0x315 app/out/libs/lpc_open/lpc_chip_43xx/src/uart_18xx_43xx.o
- .debug_macro   0x000000000000a827      0x31b app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
- .debug_macro   0x000000000000ab42      0x315 app/out/libs/lpc_open/lpc_chip_43xx/src/chip_18xx_43xx.o
- .debug_macro   0x000000000000ae57      0x315 app/out/libs/lpc_open/lpc_chip_43xx/src/gpio_18xx_43xx.o
- .debug_macro   0x000000000000b16c      0x315 app/out/libs/lpc_open/lpc_chip_43xx/src/sysinit_18xx_43xx.o
- .debug_macro   0x000000000000b481       0x17 app/out/libs/lpc_open/lpc_startup/src/crp.o
- .debug_macro   0x000000000000b498      0x42b app/out/libs/lpc_open/lpc_startup/src/sysinit.o
- .debug_macro   0x000000000000b8c3       0x1d app/out/libs/lpc_open/lpc_startup/src/vendor_interrupt.o
- .debug_macro   0x000000000000b8e0      0x449 app/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
- .debug_macro   0x000000000000bd29       0x10 app/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
- .debug_macro   0x000000000000bd39      0x482 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
- .debug_macro   0x000000000000c1bb       0x16 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
- .debug_macro   0x000000000000c1d1       0x16 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
- .debug_macro   0x000000000000c1e7      0x450 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
- .debug_macro   0x000000000000c637      0x459 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_timer.o
- .debug_macro   0x000000000000ca90      0x453 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
- .debug_macro   0x000000000000cee3      0x546 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
- .debug_macro   0x000000000000d429      0x475 app/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
- .debug_macro   0x000000000000d89e      0x45b app/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
- .debug_macro   0x000000000000dcf9      0x4a2 app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_ultrasonic_hcsr04.o
+.debug_macro    0x0000000000000000     0xe17f
+ .debug_macro   0x0000000000000000      0x69e app/out/app/src/door_fsm.o
+ .debug_macro   0x000000000000069e      0xa6c app/out/app/src/door_fsm.o
+ .debug_macro   0x000000000000110a       0x22 app/out/app/src/door_fsm.o
+ .debug_macro   0x000000000000112c       0x56 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000001182       0x51 app/out/app/src/door_fsm.o
+ .debug_macro   0x00000000000011d3       0xef app/out/app/src/door_fsm.o
+ .debug_macro   0x00000000000012c2       0x6a app/out/app/src/door_fsm.o
+ .debug_macro   0x000000000000132c      0x1df app/out/app/src/door_fsm.o
+ .debug_macro   0x000000000000150b       0x10 app/out/app/src/door_fsm.o
+ .debug_macro   0x000000000000151b       0x22 app/out/app/src/door_fsm.o
+ .debug_macro   0x000000000000153d       0x73 app/out/app/src/door_fsm.o
+ .debug_macro   0x00000000000015b0       0x22 app/out/app/src/door_fsm.o
+ .debug_macro   0x00000000000015d2       0x1c app/out/app/src/door_fsm.o
+ .debug_macro   0x00000000000015ee       0x22 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000001610       0xdf app/out/app/src/door_fsm.o
+ .debug_macro   0x00000000000016ef     0x102d app/out/app/src/door_fsm.o
+ .debug_macro   0x000000000000271c      0x11f app/out/app/src/door_fsm.o
+ .debug_macro   0x000000000000283b      0x2c3 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000002afe      0x112 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000002c10       0x11 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000002c21       0x2a app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000002c4b       0x16 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000002c61      0x2e6 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000002f47       0x82 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000002fc9      0x13d app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000003106      0x198 app/out/app/src/door_fsm.o
+ .debug_macro   0x000000000000329e       0x34 app/out/app/src/door_fsm.o
+ .debug_macro   0x00000000000032d2       0x58 app/out/app/src/door_fsm.o
+ .debug_macro   0x000000000000332a      0x236 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000003560      0x572 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000003ad2       0x16 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000003ae8      0x18a app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000003c72       0x88 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000003cfa      0x1b9 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000003eb3      0x1da app/out/app/src/door_fsm.o
+ .debug_macro   0x000000000000408d       0x40 app/out/app/src/door_fsm.o
+ .debug_macro   0x00000000000040cd       0x1c app/out/app/src/door_fsm.o
+ .debug_macro   0x00000000000040e9       0x2e app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000004117       0x2e app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000004145       0x22 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000004167      0x201 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000004368       0xe0 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000004448      0x34c app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000004794       0xdc app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000004870       0xc4 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000004934       0x8f app/out/app/src/door_fsm.o
+ .debug_macro   0x00000000000049c3       0x94 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000004a57       0xb8 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000004b0f       0x4c app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000004b5b       0x16 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000004b71      0x328 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000004e99       0x3a app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000004ed3       0xd0 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000004fa3       0x18 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000004fbb       0x22 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000004fdd       0x40 app/out/app/src/door_fsm.o
+ .debug_macro   0x000000000000501d       0x5e app/out/app/src/door_fsm.o
+ .debug_macro   0x000000000000507b       0x18 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000005093       0x35 app/out/app/src/door_fsm.o
+ .debug_macro   0x00000000000050c8       0x34 app/out/app/src/door_fsm.o
+ .debug_macro   0x00000000000050fc       0x16 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000005112       0x97 app/out/app/src/door_fsm.o
+ .debug_macro   0x00000000000051a9      0x34d app/out/app/src/door_fsm.o
+ .debug_macro   0x00000000000054f6       0xf6 app/out/app/src/door_fsm.o
+ .debug_macro   0x00000000000055ec       0x10 app/out/app/src/door_fsm.o
+ .debug_macro   0x00000000000055fc       0x58 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000005654       0x1f app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000005673       0x43 app/out/app/src/door_fsm.o
+ .debug_macro   0x00000000000056b6       0x20 app/out/app/src/door_fsm.o
+ .debug_macro   0x00000000000056d6      0x18e app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000005864       0x10 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000005874       0xb6 app/out/app/src/door_fsm.o
+ .debug_macro   0x000000000000592a       0x16 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000005940      0x129 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000005a69       0x20 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000005a89       0xee app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000005b77       0x1c app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000005b93       0x10 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000005ba3       0x10 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000005bb3       0x10 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000005bc3       0x10 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000005bd3       0x1c app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000005bef       0x10 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000005bff       0x10 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000005c0f       0x40 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000005c4f       0x10 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000005c5f       0x10 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000005c6f       0x16 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000005c85      0x26c app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000005ef1       0x5e app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000005f4f       0x12 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000005f61       0xfa app/out/app/src/door_fsm.o
+ .debug_macro   0x000000000000605b       0xee app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000006149      0x69a app/out/app/src/door_fsm.o
+ .debug_macro   0x00000000000067e3      0x272 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000006a55       0x10 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000006a65       0x16 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000006a7b       0x40 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000006abb       0x70 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000006b2b       0x70 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000006b9b       0x10 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000006bab       0x22 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000006bcd       0x16 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000006be3       0x10 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000006bf3       0x10 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000006c03       0x88 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000006c8b       0x10 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000006c9b       0x16 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000006cb1       0x10 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000006cc1       0x7c app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000006d3d       0x64 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000006da1      0x1ec app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000006f8d       0x10 app/out/app/src/door_fsm.o
+ .debug_macro   0x0000000000006f9d      0x678 app/out/app/src/uart_service.o
+ .debug_macro   0x0000000000007615      0x68c app/out/app/src/key_service.o
+ .debug_macro   0x0000000000007ca1       0x1c app/out/app/src/key_service.o
+ .debug_macro   0x0000000000007cbd       0x10 app/out/app/src/key_service.o
+ .debug_macro   0x0000000000007ccd      0x686 app/out/app/src/led_service.o
+ .debug_macro   0x0000000000008353      0x6b8 app/out/app/src/app.o
+ .debug_macro   0x0000000000008a0b       0x22 app/out/app/src/app.o
+ .debug_macro   0x0000000000008a2d      0x697 app/out/app/src/debounce_fsm.o
+ .debug_macro   0x00000000000090c4       0xe6 app/out/libs/cmsis_core//src/armv7m_startup.o
+ .debug_macro   0x00000000000091aa      0x168 app/out/libs/sys_newlib//src/system.o
+ .debug_macro   0x0000000000009312       0x58 app/out/libs/sys_newlib//src/system.o
+ .debug_macro   0x000000000000936a       0x5c app/out/libs/sys_newlib//src/system.o
+ .debug_macro   0x00000000000093c6      0x16d app/out/libs/sys_newlib//src/system.o
+ .debug_macro   0x0000000000009533       0x57 app/out/libs/sys_newlib//src/system.o
+ .debug_macro   0x000000000000958a       0x10 app/out/libs/sys_newlib//src/system.o
+ .debug_macro   0x000000000000959a       0x35 app/out/libs/sys_newlib//src/system.o
+ .debug_macro   0x00000000000095cf       0x10 app/out/libs/sys_newlib//src/system.o
+ .debug_macro   0x00000000000095df      0x241 app/out/libs/sys_newlib//src/system.o
+ .debug_macro   0x0000000000009820      0x353 app/out/libs/sys_newlib//src/system.o
+ .debug_macro   0x0000000000009b73      0x105 app/out/libs/sys_newlib//src/system.o
+ .debug_macro   0x0000000000009c78       0x16 app/out/libs/sys_newlib//src/system.o
+ .debug_macro   0x0000000000009c8e      0x43d app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board.o
+ .debug_macro   0x000000000000a0cb      0x42b app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board_sysinit.o
+ .debug_macro   0x000000000000a4f6      0x315 app/out/libs/lpc_open/lpc_chip_43xx/src/uart_18xx_43xx.o
+ .debug_macro   0x000000000000a80b      0x31b app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
+ .debug_macro   0x000000000000ab26      0x315 app/out/libs/lpc_open/lpc_chip_43xx/src/chip_18xx_43xx.o
+ .debug_macro   0x000000000000ae3b      0x315 app/out/libs/lpc_open/lpc_chip_43xx/src/gpio_18xx_43xx.o
+ .debug_macro   0x000000000000b150      0x315 app/out/libs/lpc_open/lpc_chip_43xx/src/sysinit_18xx_43xx.o
+ .debug_macro   0x000000000000b465       0x17 app/out/libs/lpc_open/lpc_startup/src/crp.o
+ .debug_macro   0x000000000000b47c      0x42b app/out/libs/lpc_open/lpc_startup/src/sysinit.o
+ .debug_macro   0x000000000000b8a7       0x1d app/out/libs/lpc_open/lpc_startup/src/vendor_interrupt.o
+ .debug_macro   0x000000000000b8c4      0x449 app/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
+ .debug_macro   0x000000000000bd0d       0x10 app/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
+ .debug_macro   0x000000000000bd1d      0x482 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
+ .debug_macro   0x000000000000c19f       0x16 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
+ .debug_macro   0x000000000000c1b5       0x16 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
+ .debug_macro   0x000000000000c1cb      0x450 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
+ .debug_macro   0x000000000000c61b      0x459 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_timer.o
+ .debug_macro   0x000000000000ca74      0x453 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
+ .debug_macro   0x000000000000cec7      0x546 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
+ .debug_macro   0x000000000000d40d      0x475 app/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
+ .debug_macro   0x000000000000d882      0x45b app/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
+ .debug_macro   0x000000000000dcdd      0x4a2 app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_ultrasonic_hcsr04.o
 
-.debug_line     0x0000000000000000     0xf791
- .debug_line    0x0000000000000000      0xcbb app/out/app/src/uart_service.o
- .debug_line    0x0000000000000cbb      0xd23 app/out/app/src/key_service.o
- .debug_line    0x00000000000019de      0xd3f app/out/app/src/elevator_fsm.o
- .debug_line    0x000000000000271d      0xd86 app/out/app/src/led_service.o
- .debug_line    0x00000000000034a3      0xcf2 app/out/app/src/app.o
- .debug_line    0x0000000000004195      0xd10 app/out/app/src/debounce_fsm.o
- .debug_line    0x0000000000004ea5      0x374 app/out/libs/cmsis_core//src/armv7m_startup.o
- .debug_line    0x0000000000005219      0x4b6 app/out/libs/sys_newlib//src/system.o
- .debug_line    0x00000000000056cf      0xa7b app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board.o
- .debug_line    0x000000000000614a      0x87e app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board_sysinit.o
- .debug_line    0x00000000000069c8      0x9ed app/out/libs/lpc_open/lpc_chip_43xx/src/uart_18xx_43xx.o
- .debug_line    0x00000000000073b5      0xb45 app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
- .debug_line    0x0000000000007efa      0x74f app/out/libs/lpc_open/lpc_chip_43xx/src/chip_18xx_43xx.o
- .debug_line    0x0000000000008649      0x70d app/out/libs/lpc_open/lpc_chip_43xx/src/gpio_18xx_43xx.o
- .debug_line    0x0000000000008d56      0x7ac app/out/libs/lpc_open/lpc_chip_43xx/src/sysinit_18xx_43xx.o
- .debug_line    0x0000000000009502       0x44 app/out/libs/lpc_open/lpc_startup/src/crp.o
- .debug_line    0x0000000000009546      0x81a app/out/libs/lpc_open/lpc_startup/src/sysinit.o
- .debug_line    0x0000000000009d60       0x61 app/out/libs/lpc_open/lpc_startup/src/vendor_interrupt.o
- .debug_line    0x0000000000009dc1      0x8d4 app/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
- .debug_line    0x000000000000a695      0xaf6 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
- .debug_line    0x000000000000b18b      0x911 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
- .debug_line    0x000000000000ba9c      0xaa6 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_timer.o
- .debug_line    0x000000000000c542      0x9b8 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
- .debug_line    0x000000000000cefa      0xb5f app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
- .debug_line    0x000000000000da59      0x92d app/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
- .debug_line    0x000000000000e386      0x984 app/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
- .debug_line    0x000000000000ed0a      0xa87 app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_ultrasonic_hcsr04.o
+.debug_line     0x0000000000000000     0xf78d
+ .debug_line    0x0000000000000000      0xd27 app/out/app/src/door_fsm.o
+ .debug_line    0x0000000000000d27      0xcd4 app/out/app/src/uart_service.o
+ .debug_line    0x00000000000019fb      0xd1b app/out/app/src/key_service.o
+ .debug_line    0x0000000000002716      0xd7f app/out/app/src/led_service.o
+ .debug_line    0x0000000000003495      0xd00 app/out/app/src/app.o
+ .debug_line    0x0000000000004195      0xd0c app/out/app/src/debounce_fsm.o
+ .debug_line    0x0000000000004ea1      0x374 app/out/libs/cmsis_core//src/armv7m_startup.o
+ .debug_line    0x0000000000005215      0x4b6 app/out/libs/sys_newlib//src/system.o
+ .debug_line    0x00000000000056cb      0xa7b app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board.o
+ .debug_line    0x0000000000006146      0x87e app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board_sysinit.o
+ .debug_line    0x00000000000069c4      0x9ed app/out/libs/lpc_open/lpc_chip_43xx/src/uart_18xx_43xx.o
+ .debug_line    0x00000000000073b1      0xb45 app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
+ .debug_line    0x0000000000007ef6      0x74f app/out/libs/lpc_open/lpc_chip_43xx/src/chip_18xx_43xx.o
+ .debug_line    0x0000000000008645      0x70d app/out/libs/lpc_open/lpc_chip_43xx/src/gpio_18xx_43xx.o
+ .debug_line    0x0000000000008d52      0x7ac app/out/libs/lpc_open/lpc_chip_43xx/src/sysinit_18xx_43xx.o
+ .debug_line    0x00000000000094fe       0x44 app/out/libs/lpc_open/lpc_startup/src/crp.o
+ .debug_line    0x0000000000009542      0x81a app/out/libs/lpc_open/lpc_startup/src/sysinit.o
+ .debug_line    0x0000000000009d5c       0x61 app/out/libs/lpc_open/lpc_startup/src/vendor_interrupt.o
+ .debug_line    0x0000000000009dbd      0x8d4 app/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
+ .debug_line    0x000000000000a691      0xaf6 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
+ .debug_line    0x000000000000b187      0x911 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
+ .debug_line    0x000000000000ba98      0xaa6 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_timer.o
+ .debug_line    0x000000000000c53e      0x9b8 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
+ .debug_line    0x000000000000cef6      0xb5f app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
+ .debug_line    0x000000000000da55      0x92d app/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
+ .debug_line    0x000000000000e382      0x984 app/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
+ .debug_line    0x000000000000ed06      0xa87 app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_ultrasonic_hcsr04.o
 
-.debug_str      0x0000000000000000    0x26480
- .debug_str     0x0000000000000000    0x215b9 app/out/app/src/uart_service.o
-                                      0x21937 (size before relaxing)
- .debug_str     0x00000000000215b9      0x20e app/out/app/src/key_service.o
-                                      0x21b14 (size before relaxing)
- .debug_str     0x00000000000217c7      0xb20 app/out/app/src/elevator_fsm.o
-                                      0x2262c (size before relaxing)
- .debug_str     0x00000000000222e7       0xa1 app/out/app/src/led_service.o
-                                      0x21b5f (size before relaxing)
- .debug_str     0x0000000000022388      0x197 app/out/app/src/app.o
-                                      0x226c0 (size before relaxing)
- .debug_str     0x000000000002251f       0x49 app/out/app/src/debounce_fsm.o
-                                      0x21c17 (size before relaxing)
- .debug_str     0x0000000000022568      0x20c app/out/libs/cmsis_core//src/armv7m_startup.o
+.debug_str      0x0000000000000000    0x26488
+ .debug_str     0x0000000000000000    0x221b2 app/out/app/src/door_fsm.o
+                                      0x22588 (size before relaxing)
+ .debug_str     0x00000000000221b2       0x71 app/out/app/src/uart_service.o
+                                      0x21961 (size before relaxing)
+ .debug_str     0x0000000000022223       0xb9 app/out/app/src/key_service.o
+                                      0x21ae6 (size before relaxing)
+ .debug_str     0x00000000000222dc       0xa6 app/out/app/src/led_service.o
+                                      0x21b43 (size before relaxing)
+ .debug_str     0x0000000000022382      0x1a5 app/out/app/src/app.o
+                                      0x226cf (size before relaxing)
+ .debug_str     0x0000000000022527       0x49 app/out/app/src/debounce_fsm.o
+                                      0x21bf7 (size before relaxing)
+ .debug_str     0x0000000000022570      0x20c app/out/libs/cmsis_core//src/armv7m_startup.o
                                        0xae58 (size before relaxing)
- .debug_str     0x0000000000022774      0x894 app/out/libs/sys_newlib//src/system.o
+ .debug_str     0x000000000002277c      0x894 app/out/libs/sys_newlib//src/system.o
                                        0x6b85 (size before relaxing)
- .debug_str     0x0000000000023008      0x9a4 app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board.o
+ .debug_str     0x0000000000023010      0x9a4 app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board.o
                                       0x1b5e2 (size before relaxing)
- .debug_str     0x00000000000239ac      0x352 app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board_sysinit.o
+ .debug_str     0x00000000000239b4      0x352 app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board_sysinit.o
                                       0x1af73 (size before relaxing)
- .debug_str     0x0000000000023cfe      0x3cf app/out/libs/lpc_open/lpc_chip_43xx/src/uart_18xx_43xx.o
+ .debug_str     0x0000000000023d06      0x3cf app/out/libs/lpc_open/lpc_chip_43xx/src/uart_18xx_43xx.o
                                       0x17669 (size before relaxing)
- .debug_str     0x00000000000240cd      0x5d1 app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
+ .debug_str     0x00000000000240d5      0x5d1 app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
                                       0x17a2c (size before relaxing)
- .debug_str     0x000000000002469e       0x8c app/out/libs/lpc_open/lpc_chip_43xx/src/chip_18xx_43xx.o
+ .debug_str     0x00000000000246a6       0x8c app/out/libs/lpc_open/lpc_chip_43xx/src/chip_18xx_43xx.o
                                       0x17559 (size before relaxing)
- .debug_str     0x000000000002472a       0x42 app/out/libs/lpc_open/lpc_chip_43xx/src/gpio_18xx_43xx.o
+ .debug_str     0x0000000000024732       0x42 app/out/libs/lpc_open/lpc_chip_43xx/src/gpio_18xx_43xx.o
                                       0x167bb (size before relaxing)
- .debug_str     0x000000000002476c       0xbc app/out/libs/lpc_open/lpc_chip_43xx/src/sysinit_18xx_43xx.o
+ .debug_str     0x0000000000024774       0xbc app/out/libs/lpc_open/lpc_chip_43xx/src/sysinit_18xx_43xx.o
                                       0x174ba (size before relaxing)
- .debug_str     0x0000000000024828       0x43 app/out/libs/lpc_open/lpc_startup/src/crp.o
+ .debug_str     0x0000000000024830       0x43 app/out/libs/lpc_open/lpc_startup/src/crp.o
                                        0x2d22 (size before relaxing)
- .debug_str     0x000000000002486b       0xb9 app/out/libs/lpc_open/lpc_startup/src/sysinit.o
+ .debug_str     0x0000000000024873       0xb9 app/out/libs/lpc_open/lpc_startup/src/sysinit.o
                                       0x1a23a (size before relaxing)
- .debug_str     0x0000000000024924       0x56 app/out/libs/lpc_open/lpc_startup/src/vendor_interrupt.o
+ .debug_str     0x000000000002492c       0x56 app/out/libs/lpc_open/lpc_startup/src/vendor_interrupt.o
                                        0x2d7d (size before relaxing)
- .debug_str     0x000000000002497a       0xda app/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
+ .debug_str     0x0000000000024982       0xda app/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
                                       0x1ace9 (size before relaxing)
- .debug_str     0x0000000000024a54      0x676 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
+ .debug_str     0x0000000000024a5c      0x676 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
                                       0x1b6f1 (size before relaxing)
- .debug_str     0x00000000000250ca      0x17d app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
+ .debug_str     0x00000000000250d2      0x17d app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
                                       0x1b149 (size before relaxing)
- .debug_str     0x0000000000025247      0x3e4 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_timer.o
+ .debug_str     0x000000000002524f      0x3e4 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_timer.o
                                       0x1b442 (size before relaxing)
- .debug_str     0x000000000002562b      0x174 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
+ .debug_str     0x0000000000025633      0x174 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
                                       0x1afff (size before relaxing)
- .debug_str     0x000000000002579f      0x76b app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
+ .debug_str     0x00000000000257a7      0x76b app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
                                       0x20eb3 (size before relaxing)
- .debug_str     0x0000000000025f0a       0x2d app/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
+ .debug_str     0x0000000000025f12       0x2d app/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
                                       0x1a492 (size before relaxing)
- .debug_str     0x0000000000025f37       0x85 app/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
+ .debug_str     0x0000000000025f3f       0x85 app/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
                                       0x1a353 (size before relaxing)
- .debug_str     0x0000000000025fbc      0x4c4 app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_ultrasonic_hcsr04.o
+ .debug_str     0x0000000000025fc4      0x4c4 app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_ultrasonic_hcsr04.o
                                       0x1b81d (size before relaxing)
 
 .comment        0x0000000000000000       0x7f
- .comment       0x0000000000000000       0x7f app/out/app/src/uart_service.o
+ .comment       0x0000000000000000       0x7f app/out/app/src/door_fsm.o
                                          0x80 (size before relaxing)
+ .comment       0x000000000000007f       0x80 app/out/app/src/uart_service.o
  .comment       0x000000000000007f       0x80 app/out/app/src/key_service.o
- .comment       0x000000000000007f       0x80 app/out/app/src/elevator_fsm.o
  .comment       0x000000000000007f       0x80 app/out/app/src/led_service.o
  .comment       0x000000000000007f       0x80 app/out/app/src/app.o
  .comment       0x000000000000007f       0x80 app/out/app/src/debounce_fsm.o
@@ -15129,11 +15148,11 @@ OUTPUT(app/out/app.elf elf32-littlearm)
 .ARM.attributes
                 0x0000000000000000       0x37
  .ARM.attributes
-                0x0000000000000000       0x39 app/out/app/src/uart_service.o
+                0x0000000000000000       0x39 app/out/app/src/door_fsm.o
  .ARM.attributes
-                0x0000000000000039       0x39 app/out/app/src/key_service.o
+                0x0000000000000039       0x39 app/out/app/src/uart_service.o
  .ARM.attributes
-                0x0000000000000072       0x39 app/out/app/src/elevator_fsm.o
+                0x0000000000000072       0x39 app/out/app/src/key_service.o
  .ARM.attributes
                 0x00000000000000ab       0x39 app/out/app/src/led_service.o
  .ARM.attributes
@@ -15193,59 +15212,37 @@ OUTPUT(app/out/app.elf elf32-littlearm)
  .ARM.attributes
                 0x00000000000006af       0x34 /home/alejandro/CIAA/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-memset.o)
 
-.debug_frame    0x0000000000000000     0x1574
- .debug_frame   0x0000000000000000       0x28 app/out/app/src/uart_service.o
- .debug_frame   0x0000000000000028       0x70 app/out/app/src/key_service.o
- .debug_frame   0x0000000000000098       0x4c app/out/app/src/elevator_fsm.o
- .debug_frame   0x00000000000000e4       0xe8 app/out/app/src/led_service.o
- .debug_frame   0x00000000000001cc       0x28 app/out/app/src/app.o
- .debug_frame   0x00000000000001f4       0x3c app/out/app/src/debounce_fsm.o
- .debug_frame   0x0000000000000230       0xf4 app/out/libs/cmsis_core//src/armv7m_startup.o
- .debug_frame   0x0000000000000324      0x1d8 app/out/libs/sys_newlib//src/system.o
- .debug_frame   0x00000000000004fc      0x204 app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board.o
- .debug_frame   0x0000000000000700       0x5c app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board_sysinit.o
- .debug_frame   0x000000000000075c      0x1f4 app/out/libs/lpc_open/lpc_chip_43xx/src/uart_18xx_43xx.o
- .debug_frame   0x0000000000000950      0x318 app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
- .debug_frame   0x0000000000000c68       0x70 app/out/libs/lpc_open/lpc_chip_43xx/src/chip_18xx_43xx.o
- .debug_frame   0x0000000000000cd8       0x30 app/out/libs/lpc_open/lpc_chip_43xx/src/gpio_18xx_43xx.o
- .debug_frame   0x0000000000000d08       0x7c app/out/libs/lpc_open/lpc_chip_43xx/src/sysinit_18xx_43xx.o
- .debug_frame   0x0000000000000d84       0x28 app/out/libs/lpc_open/lpc_startup/src/sysinit.o
- .debug_frame   0x0000000000000dac       0x20 app/out/libs/lpc_open/lpc_startup/src/vendor_interrupt.o
- .debug_frame   0x0000000000000dcc       0x60 app/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
- .debug_frame   0x0000000000000e2c      0x170 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
- .debug_frame   0x0000000000000f9c       0x84 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
- .debug_frame   0x0000000000001020      0x130 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_timer.o
- .debug_frame   0x0000000000001150       0xa4 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
- .debug_frame   0x00000000000011f4       0xb8 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
- .debug_frame   0x00000000000012ac       0x28 app/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
- .debug_frame   0x00000000000012d4       0xc8 app/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
- .debug_frame   0x000000000000139c      0x12c app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_ultrasonic_hcsr04.o
- .debug_frame   0x00000000000014c8       0x2c /home/alejandro/CIAA/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x00000000000014f4       0x34 /home/alejandro/CIAA/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_udivmoddi4.o)
- .debug_frame   0x0000000000001528       0x2c /home/alejandro/CIAA/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-init.o)
- .debug_frame   0x0000000000001554       0x20 /home/alejandro/CIAA/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-memset.o)
-
-.debug_loc      0x0000000000000000     0x55b5
- .debug_loc     0x0000000000000000       0xf0 app/out/app/src/key_service.o
- .debug_loc     0x00000000000000f0       0x81 app/out/app/src/elevator_fsm.o
- .debug_loc     0x0000000000000171       0xf1 app/out/app/src/led_service.o
- .debug_loc     0x0000000000000262       0xec app/out/app/src/debounce_fsm.o
- .debug_loc     0x000000000000034e      0x206 app/out/libs/cmsis_core//src/armv7m_startup.o
- .debug_loc     0x0000000000000554      0x586 app/out/libs/sys_newlib//src/system.o
- .debug_loc     0x0000000000000ada      0x5b0 app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board.o
- .debug_loc     0x000000000000108a       0xf5 app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board_sysinit.o
- .debug_loc     0x000000000000117f      0xd25 app/out/libs/lpc_open/lpc_chip_43xx/src/uart_18xx_43xx.o
- .debug_loc     0x0000000000001ea4     0x123c app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
- .debug_loc     0x00000000000030e0      0x1b5 app/out/libs/lpc_open/lpc_chip_43xx/src/sysinit_18xx_43xx.o
- .debug_loc     0x0000000000003295       0x13 app/out/libs/lpc_open/lpc_startup/src/sysinit.o
- .debug_loc     0x00000000000032a8       0x8e app/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
- .debug_loc     0x0000000000003336      0x7c8 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
- .debug_loc     0x0000000000003afe      0x173 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
- .debug_loc     0x0000000000003c71      0x7a5 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_timer.o
- .debug_loc     0x0000000000004416      0x7e4 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
- .debug_loc     0x0000000000004bfa      0x34f app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
- .debug_loc     0x0000000000004f49      0x1af app/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
- .debug_loc     0x00000000000050f8      0x4bd app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_ultrasonic_hcsr04.o
+.debug_frame    0x0000000000000000     0x15a0
+ .debug_frame   0x0000000000000000       0x54 app/out/app/src/door_fsm.o
+ .debug_frame   0x0000000000000054       0x58 app/out/app/src/uart_service.o
+ .debug_frame   0x00000000000000ac       0x60 app/out/app/src/key_service.o
+ .debug_frame   0x000000000000010c       0xec app/out/app/src/led_service.o
+ .debug_frame   0x00000000000001f8       0x28 app/out/app/src/app.o
+ .debug_frame   0x0000000000000220       0x3c app/out/app/src/debounce_fsm.o
+ .debug_frame   0x000000000000025c       0xf4 app/out/libs/cmsis_core//src/armv7m_startup.o
+ .debug_frame   0x0000000000000350      0x1d8 app/out/libs/sys_newlib//src/system.o
+ .debug_frame   0x0000000000000528      0x204 app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board.o
+ .debug_frame   0x000000000000072c       0x5c app/out/libs/lpc_open/boards/edu_ciaa_nxp/src/board_sysinit.o
+ .debug_frame   0x0000000000000788      0x1f4 app/out/libs/lpc_open/lpc_chip_43xx/src/uart_18xx_43xx.o
+ .debug_frame   0x000000000000097c      0x318 app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
+ .debug_frame   0x0000000000000c94       0x70 app/out/libs/lpc_open/lpc_chip_43xx/src/chip_18xx_43xx.o
+ .debug_frame   0x0000000000000d04       0x30 app/out/libs/lpc_open/lpc_chip_43xx/src/gpio_18xx_43xx.o
+ .debug_frame   0x0000000000000d34       0x7c app/out/libs/lpc_open/lpc_chip_43xx/src/sysinit_18xx_43xx.o
+ .debug_frame   0x0000000000000db0       0x28 app/out/libs/lpc_open/lpc_startup/src/sysinit.o
+ .debug_frame   0x0000000000000dd8       0x20 app/out/libs/lpc_open/lpc_startup/src/vendor_interrupt.o
+ .debug_frame   0x0000000000000df8       0x60 app/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
+ .debug_frame   0x0000000000000e58      0x170 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
+ .debug_frame   0x0000000000000fc8       0x84 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
+ .debug_frame   0x000000000000104c      0x130 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_timer.o
+ .debug_frame   0x000000000000117c       0xa4 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
+ .debug_frame   0x0000000000001220       0xb8 app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
+ .debug_frame   0x00000000000012d8       0x28 app/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
+ .debug_frame   0x0000000000001300       0xc8 app/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
+ .debug_frame   0x00000000000013c8      0x12c app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_ultrasonic_hcsr04.o
+ .debug_frame   0x00000000000014f4       0x2c /home/alejandro/CIAA/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x0000000000001520       0x34 /home/alejandro/CIAA/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x0000000000001554       0x2c /home/alejandro/CIAA/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x0000000000001580       0x20 /home/alejandro/CIAA/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-memset.o)
 
 Cross Reference Table
 
@@ -15955,9 +15952,9 @@ _vStackTop                                        app/out/libs/cmsis_core//src/a
 _wait_r                                           app/out/libs/sys_newlib//src/system.o
 _write_r                                          app/out/libs/sys_newlib//src/system.o
                                                   /home/alejandro/CIAA/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-stdio.o)
-actualElevatorFsmState                            app/out/app/src/elevator_fsm.o
-actualFloorLedIndicator                           app/out/app/src/led_service.o
-                                                  app/out/app/src/elevator_fsm.o
+actualDoorFsmState                                app/out/app/src/door_fsm.o
+actualDoorLedIndicator                            app/out/app/src/led_service.o
+                                                  app/out/app/src/door_fsm.o
 adcInit                                           app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
 adcRead                                           app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
 boardInit                                         app/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
@@ -16030,8 +16027,6 @@ esp8266WriteHttpServer                            app/out/libs/sapi/sapi_v0.5.2/
 fflush                                            /home/alejandro/CIAA/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-fflush.o)
 find_IntfDesc                                     app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
                                                   app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/cdc_uart.o
-floorOneKey                                       app/out/app/src/app.o
-floorTwoKey                                       app/out/app/src/app.o
 g_pUsbApi                                         app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
                                                   app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/cdc_uart.o
                                                   app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/usbd_keyboard.o
@@ -16084,9 +16079,9 @@ i2cWrite                                          app/out/libs/sapi/sapi_v0.5.2/
                                                   app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_magnetometer_qmc5883l.o
 initDebounceFsm                                   app/out/app/src/debounce_fsm.o
                                                   app/out/app/src/app.o
-initDynMem                                        app/out/libs/lpc_open/lpc_chip_43xx/src/emc_18xx_43xx.o
-initElevatorFsm                                   app/out/app/src/elevator_fsm.o
+initDoorFsm                                       app/out/app/src/door_fsm.o
                                                   app/out/app/src/app.o
+initDynMem                                        app/out/libs/lpc_open/lpc_chip_43xx/src/emc_18xx_43xx.o
 initStaticMem                                     app/out/libs/lpc_open/lpc_chip_43xx/src/emc_18xx_43xx.o
 int64ToString                                     app/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_convert.o
                                                   app/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_print.o
@@ -16104,12 +16099,9 @@ lcdData                                           app/out/libs/sapi/sapi_v0.5.2/
 lcdGoToXY                                         app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_lcd.o
 lcdInit                                           app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_lcd.o
 lcdSendStringRaw                                  app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_lcd.o
-lowLevelKey                                       app/out/app/src/app.o
 main                                              app/out/app/src/app.o
                                                   app/out/libs/cmsis_core//src/armv7m_startup.o
 makeCtrlWord                                      app/out/libs/lpc_open/lpc_chip_43xx/src/gpdma_18xx_43xx.o
-mapKeyToFloor                                     app/out/app/src/key_service.o
-                                                  app/out/app/src/elevator_fsm.o
 memcpy                                            /home/alejandro/CIAA/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-memcpy-stub.o)
                                                   app/out/libs/lpc_open/lpc_chip_43xx/src/ring_buffer.o
 memset                                            /home/alejandro/CIAA/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-memset.o)
@@ -16118,9 +16110,6 @@ memset                                            /home/alejandro/CIAA/gcc-arm-n
                                                   app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/usbd_keyboard.o
                                                   app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
                                                   app/out/libs/lpc_open/lpc_chip_43xx/src/clock_18xx_43xx.o
-motorKey                                          app/out/app/src/app.o
-motorStateIndicator                               app/out/app/src/led_service.o
-                                                  app/out/app/src/elevator_fsm.o
 mpu9250GetAccelX_mss                              app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_imu_mpu9250.o
 mpu9250GetAccelY_mss                              app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_imu_mpu9250.o
 mpu9250GetAccelZ_mss                              app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_imu_mpu9250.o
@@ -16137,12 +16126,14 @@ notPress                                          app/out/app/src/key_service.o
                                                   app/out/app/src/debounce_fsm.o
 outbyte                                           app/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_stdio.o
 pressedKey                                        app/out/app/src/app.o
-printElevatorStatus                               app/out/app/src/uart_service.o
-                                                  app/out/app/src/elevator_fsm.o
+printClosingStatus                                app/out/app/src/uart_service.o
+                                                  app/out/app/src/door_fsm.o
 printEnter                                        app/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_print.o
 printHex                                          app/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_print.o
 printInitUart                                     app/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_print.o
 printIntFormat                                    app/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_print.o
+printOpeningStatus                                app/out/app/src/uart_service.o
+                                                  app/out/app/src/door_fsm.o
 printSetUart                                      app/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_print.o
 printString                                       app/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_print.o
 printUIntFormat                                   app/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_print.o
@@ -16162,6 +16153,8 @@ rgbInit                                           app/out/libs/sapi/sapi_v0.5.2/
 rgbReadDutyBlue                                   app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_rgb.o
 rgbReadDutyGreen                                  app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_rgb.o
 rgbReadDutyRed                                    app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_rgb.o
+rgbRedStatus                                      app/out/app/src/led_service.o
+                                                  app/out/app/src/door_fsm.o
 rgbToggleLed                                      app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_rgb.o
 rgbWriteBright                                    app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_rgb.o
 rgbWriteColor                                     app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_rgb.o
@@ -16192,6 +16185,10 @@ strcpy                                            /home/alejandro/CIAA/gcc-arm-n
                                                   app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_esp8266.o
 strlen                                            /home/alejandro/CIAA/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-strlen.o)
                                                   app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_esp8266.o
+tec1Key                                           app/out/app/src/app.o
+tec2Key                                           app/out/app/src/app.o
+tec3Key                                           app/out/app/src/app.o
+tec4Key                                           app/out/app/src/app.o
 tickCallbackSet                                   app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
 tickInit                                          app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
                                                   app/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
@@ -16237,7 +16234,9 @@ ultrasonicSensorGetDistance                       app/out/libs/sapi/sapi_v0.5.2/
 ultrasonicSensorInit                              app/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_ultrasonic_hcsr04.o
 updateDebounceFsm                                 app/out/app/src/debounce_fsm.o
                                                   app/out/app/src/app.o
-updateElevatorFsm                                 app/out/app/src/elevator_fsm.o
+updateDoorFsm                                     app/out/app/src/door_fsm.o
+                                                  app/out/app/src/app.o
+updateRgbLedDoor                                  app/out/app/src/door_fsm.o
                                                   app/out/app/src/app.o
 usbDeviceInit                                     app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
 usbDeviceKeyboardCheckKeysCallbackSet             app/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/usbd_keyboard.o

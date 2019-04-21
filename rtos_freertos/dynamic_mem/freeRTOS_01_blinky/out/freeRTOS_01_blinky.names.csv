@@ -1,0 +1,296 @@
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10000098 00000001 b debugPrint
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:100000a4 00002000 b ucHeap
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:100000a0 00000004 b pucAlignedHeap.11438
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:100020a4 00000004 b xNextFreeByte
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0004a6 0000001e t prvIsQueueFull
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0004c4 0000001a t prvIsQueueEmpty
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0004de 00000076 t prvCopyDataToQueue
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000554 00000024 t prvCopyDataFromQueue
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000578 0000006e t prvUnlockQueue
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a00066c 00000022 t prvInitialiseNewQueue
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:100020a8 00000168 b uxIdleTaskStack.10728
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002210 000005a0 b uxTimerTaskStack.10735
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:100027b0 00000060 b xIdleTaskTCB.10727
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002810 00000060 b xTimerTaskTCB.10734
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000c00 0000002c t prvResetNextTaskUnblockTime
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000c2c 00000092 t prvInitialiseNewTask
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000cc0 00000068 t prvInitialiseTaskLists
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000d28 000000ac t prvAddNewTaskToReadyList
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000dd4 00000038 t prvDeleteTCB
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000e0c 0000004c t prvCheckTasksWaitingTermination
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000e58 00000028 t prvIdleTask
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000e80 00000098 t prvAddCurrentTaskToDelayedList
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002874 00000004 b pxDelayedTaskList
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002878 00000004 b pxOverflowDelayedTaskList
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1000287c 0000008c b pxReadyTasksLists
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002908 00000004 b uxCurrentNumberOfTasks
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1000290c 00000004 b uxDeletedTasksWaitingCleanUp
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002910 00000004 b uxPendedTicks
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002914 00000004 b uxSchedulerSuspended
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002918 00000004 b uxTaskNumber
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1000291c 00000004 b uxTopReadyPriority
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002920 00000014 b xDelayedTaskList1
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002934 00000014 b xDelayedTaskList2
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002948 00000004 b xNextTaskUnblockTime
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1000294c 00000004 b xNumOfOverflows
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002950 00000014 b xPendingReadyList
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002964 00000004 b xSchedulerRunning
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002968 00000014 b xSuspendedTaskList
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1000297c 00000014 b xTasksWaitingTermination
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002990 00000004 b xTickCount
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002994 00000004 b xYieldPending
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001628 00000020 t prvGetNextExpireTime
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001648 00000048 t prvInsertTimerInActiveList
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001690 00000070 t prvCheckForValidListAndQueue
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001700 00000040 t prvInitialiseNewTimer
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001ad0 00000016 t prvTimerTask
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a00185c 00000078 t prvSwitchTimerLists
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0018d4 0000002c t prvSampleTimeNow
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001900 00000060 t prvProcessExpiredTimer
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001960 00000074 t prvProcessTimerOrBlockTask
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0019d4 000000fc t prvProcessReceivedCommands
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002998 00000004 b pxCurrentTimerList
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1000299c 00000004 b pxOverflowTimerList
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:100029a0 000000a0 b ucStaticTimerQueueStorage.11828
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002a40 00000014 b xActiveTimerList1
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002a54 00000014 b xActiveTimerList2
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002a68 00000004 b xLastTime.11777
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002a6c 00000050 b xStaticTimerQueue.11827
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002abc 00000004 b xTimerQueue
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002ac0 00000004 b xTimerTaskHandle
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001ae8 00000040 t prvTaskExitError
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001b28 00000022 t prvPortStartFirstTask
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001b50 0000000e t vPortEnableVFP
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001bb0 t pxCurrentTCBConst2
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001c90 t pxCurrentTCBConst
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002ac4 00000001 b ucMaxSysCallPriority
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002ac8 00000004 b ulMaxPRIGROUPValue
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10000000 00000004 d uxCriticalNesting
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a003270 00000004 t InitClkStates
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a003274 00000074 t pinmuxing
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001f40 0000002c t Chip_UART_GetIndex
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0032e8 00000008 t UART_BClock
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0032f0 00000008 t UART_PClock
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0020e8 000000a4 t pll_calc_divs
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a00218c 0000010c t pll_get_frac
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a002298 0000004c t Chip_Clock_FindBaseClock
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a00250c 00000022 t Chip_Clock_GetDivRate
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002acc 00000008 b audio_usb_pll_freq
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a003304 0000006c t periph_to_base
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a003370 00000048 t InitClkStates
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10000004 00000004 d ClockSpeed
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0033b8 00000048 t lpcUarts
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002ad4 00000004 b callBackFuncParams
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002ad8 00000008 b tickCounter
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002ae0 00000004 b tickHookFunction
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002ae4 00000030 b tickerObject.11826
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a00295c 00000002 t errorOcurred
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a00295e 00000002 t doNothing
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1000000c 00000040 d timer_dd
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a002a68 00000034 t gpioObtainPinInit
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002b14 00000004 b g_hUsb
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a002e28 00000010 t clearInterrupt
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a002e38 0000005c t serveInterrupt
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1000004c 00000048 d ultrasonicSensors
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a003548 00000003 t ultrasonicSensorsIrqMap
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a003550 t __init_array_end
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a00354c b __preinit_array_end
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a00354c t __init_array_start
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a00354c b __preinit_array_start
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a002330 0000001c T Chip_Clock_GetDividerSource
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0029e0 00000044 T TIMER2_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000184 00000002 W DebugMon_Handler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W RIT_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a080000 A __top_MFlashA512
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W ADCHS_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000114 T __section_table_start
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W FLASH_EEPROM_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001bf8 0000002c T vPortExitCritical
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W I2C0_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001e88 00000008 T __stdio_init
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a00017a 00000002 W HardFault_Handler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000ae8 00000052 T vQueueWaitForMessageRestricted
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000000 A __vectors_start__
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001c94 0000002c T SysTick_Handler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001fc0 00000040 T Chip_UART_SetBaud
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a002e10 00000008 T printString
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W SDIO_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W ATIMER_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001c30 00000064 T PendSV_Handler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a00089c 000000cc T xQueueGenericSendFromISR
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000178 00000002 W NMI_Handler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a003558 R __exidx_end
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000150 T __data_section_table_end
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W I2C1_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W UART1_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W GPIO5_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W CAN1_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002870 00000004 B pxCurrentTCB
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:53ff74f6 A __valid_user_code_checksum
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a003558 R _etext
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W USB1_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W I2S0_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0014b4 00000018 T vTaskInternalSetTimeOutState
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a002a24 00000044 T TIMER3_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0025ae 0000000c T Chip_Clock_GetBaseClocktHz
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W UART0_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001a8 00000012 T bss_init
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001cf8 00000110 T xPortStartScheduler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0031fc 00000016 T memcpy
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0013c0 00000030 T vTaskPlaceOnEventList
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W SGPIO_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001cc0 00000038 W vPortSetupTimerInterrupt
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a002eb4 T __aeabi_uldivmod
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002b60 ? _noinit
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000490 00000016 T vPortFree
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0028c2 00000018 T uartWriteString
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002b58 00000004 B SystemCoreClock
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001f6c 00000054 T Chip_UART_Init
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0028dc 00000034 T tickerCallback
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W ADC0_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001e08 0000005c T vPortValidateInterruptPriority
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000180 00000002 W UsageFault_Handler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0025f8 0000004c T Chip_Clock_GetRate
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000b56 00000018 T vListInsertEnd
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W GPIO6_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a002e00 00000010 T printInitUart
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001ec8 0000006c T Board_SetupClocking
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:20008000 A __top_RamAHB32
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a002ee4 000002cc T __udivmoddi4
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a003268 00000004 T ExtRateIn
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W IntDefaultHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000300 T __CRP_WORD_END__
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000b50 00000006 T vListInitialiseItem
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000300 00000044 T myTask
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a002e9e 0000000a T GPIO1_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000968 00000158 T xQueueReceive
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002b18 00000040 B xQueueRegistry
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000be4 00000018 T vApplicationGetTimerTaskMemory
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W SSP0_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a003550 R __exidx_start
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0002fc 00000004 T CRP_WORD
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0031b4 00000048 T __libc_init_array
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W ADC1_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000420 00000070 T pvPortMalloc
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a00041c 00000002 T _init
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000b3a 00000016 T vListInitialise
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000114 T __data_section_table
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001094 0000000c T xTaskGetTickCount
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000720 0000017c T xQueueGenericSend
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W RTC_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002b60 B _ebss
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a002960 00000040 T TIMER0_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000398 00000084 T Reset_Handler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a002910 0000004c T tickInit
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:20010000 A __top_RamAHB_ETB16
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W SPI_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001578 000000b0 T xTaskPriorityDisinherit
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W LCD_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0022e4 0000004c T Chip_Clock_EnableCrystal
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10008000 A __top_RamLoc32
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001428 0000008c T xTaskRemoveFromEventList
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000bfe 00000002 T vApplicationMallocFailedHook
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1000009c 00000004 B variable
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a00018a 0000001e T data_init
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0029a0 00000040 T TIMER1_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W UART2_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a002e18 00000010 T printEnter
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0024a0 0000006c T Chip_Clock_GetMainPLLHz
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a00340c 00000136 T gpioPinsInit
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0028a8 0000001a T uartWriteByte
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a002cda 00000016 T gpioToggle
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a002ea8 0000000a T GPIO2_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0014cc 00000080 T xTaskCheckForTimeOut
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a002588 00000026 T Chip_Clock_GetBaseClock
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10000098 B _bss
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001084 00000010 T vTaskSuspendAll
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W I2S1_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000ba2 00000028 T uxListRemove
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a002658 00000002 T Chip_GPIO_Init
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a00326c 00000004 T OscRateIn
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a00282c 0000007c T uartInit
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000f18 00000072 T xTaskCreateStatic
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002b60 ? _end_noinit
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10008000 A _vStackTop
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0012f8 000000c8 T vTaskSwitchContext
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W SSP1_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a00068e 00000090 T xQueueGenericCreateStatic
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0013f0 00000038 T vTaskPlaceOnEventListRestricted
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000178 T __bss_section_table_end
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a002a9c 00000194 T gpioInit
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000bcc 00000018 T vApplicationGetIdleTaskMemory
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0017f0 0000006c T xTimerGenericCommand
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000bfc 00000002 T vApplicationStackOverflowHook
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0031b0 00000002 W __aeabi_ldiv0
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a002cf0 0000001c T USB0_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W GPIO3_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W SCT_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a00234c 0000001c T Chip_Clock_GetDividerDivisor
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0002fc T __CRP_WORD_START__
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a003212 00000010 T memset
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a00017c 00000002 W MemManage_Handler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000344 00000054 T main
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W WDT_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000b6e 00000034 T vListInsert
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:2000c000 A __top_RamAHB16
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1008a000 A __top_RamLoc40
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001b90 00000024 T SVC_Handler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10000008 00000004 D DWT_CTRL
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001740 00000064 T xTimerCreateTimerTask
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a002800 00000018 T uartTxReady
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W GPIO7_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0025bc 0000003c T Chip_Clock_EnableOpts
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a002368 000000b8 T Chip_Clock_GetClockInputHz
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a002420 00000080 T Chip_Clock_CalcMainPLLValue
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0027b0 00000034 T SystemInit
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W SPIFI_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W QEI_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000150 T __bss_section_table
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a002c30 00000056 T gpioWrite
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0011b8 000000f4 T xTaskResumeAll
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000ff0 00000094 T vTaskStartScheduler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002b5c 00000004 B g_pUsbApi
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001e90 00000038 T Board_SetupMuxing
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a002000 000000e8 T Chip_UART_SetBaudFDR
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W ETH_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10000000 ? _end_uninit_RESERVED
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a002818 00000014 T uartTxWrite
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W CAN0_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10000000 D _data
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a00154c 0000000c T vTaskMissedYield
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10002b60 B _pvHeapStart
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000178 T __section_table_end
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000ac0 00000028 T vQueueAddToRegistry
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W GINT0_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0010a0 00000118 T xTaskIncrementTick
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W DAC_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001e64 00000024 T Board_Debug_Init
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0005e8 00000084 T xQueueGenericReset
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:10000094 D _edata
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W M0SUB_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000f8a 00000066 T xTaskCreate
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a00265c 00000154 T Chip_SetupCoreClock
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a002e94 0000000a T GPIO0_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000000 00000040 T g_pfnVectors
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a002644 00000014 T SystemCoreClockUpdate
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W DMA_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0012ac 0000004c T vTaskDelay
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W EVRT_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1b080000 A __top_MFlashB512
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001558 00000020 T xTaskGetSchedulerState
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0031b0 00000002 W __aeabi_idiv0
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a00017e 00000002 W BusFault_Handler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001b64 0000002c T pxPortInitialiseStack
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W UART3_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W MCPWM_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0017a4 0000004c T xTimerCreateStatic
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W M0APP_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a002c86 00000054 T gpioRead
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a002d0c 000000f4 T boardInit
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001bb4 00000044 T vPortEnterCritical
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a000040 000000d4 T g_pfnVendorVectors
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W GINT1_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a002530 00000058 T Chip_Clock_SetBaseClock
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0027e4 0000001c T cyclesCounterInit
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a0001ba 00000002 W GPIO4_IRQHandler
+rtos_freertos/dynamic_mem/freeRTOS_01_blinky/out/freeRTOS_01_blinky.elf:1a001f34 0000000c T Board_SystemInit
